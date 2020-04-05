@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedTime.GasesteFarmacii"
+             xmlns:mymap="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:places="clr-namespace:SearchPlaces;assembly=SearchPlaces"
+             Title="Găsește farmacii">
+    
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <places:PlacesBar x:Name="search_bar"
+                          Placeholder="Source"
+                          PlaceholderColor="Gray"
+                          TextColor="Black" 
+                          BackgroundColor="WhiteSmoke"
+                          HorizontalOptions="Center"
+                              Grid.Row="0"
+                      />
+
+            <mymap:Map x:Name="mylocalmap" 
+                   IsShowingUser="True"
+                   HorizontalOptions="FillAndExpand" 
+                   VerticalOptions="FillAndExpand"
+                   Grid.Row="1"
+                   />
+        </Grid>
+</ContentPage>
+    

@@ -1,0 +1,34 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d"
+             x:Class="MedTime.CRUDMedicamente"
+             Title="Medicament nou">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Editor Placeholder="Nume medicament" Text="{Binding Nume}" HeightRequest="50" />
+            <Editor Placeholder="Doza" Text="{Binding Doza}" HeightRequest="50" />
+            <Label Text="Ora" FontSize="Large"/>
+            <TimePicker x:Name="tp" Time="{Binding Ora}"></TimePicker>
+            <Grid >
+
+                <Label Text="Data start" Grid.Row="1"  FontSize="Large"/>
+                <DatePicker x:Name="dps" Date="{Binding DataStart}" Grid.Row="2" MinimumDate="{x:Static sys:DateTime.Now}" MaximumDate="12/31/2020" ></DatePicker>
+                <Label Text="Data final" Grid.Row="1" Grid.Column="1" FontSize="Large"/>
+                <DatePicker x:Name="dpf" Date="{Binding DataFinal}" Grid.Row="2" Grid.Column="1" MinimumDate="{x:Static sys:DateTime.Now}" MaximumDate="12/31/2020"></DatePicker>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Salvare" Clicked="OnSaveButtonClicked" />
+                <Button Grid.Column="1" Text="Ștergere" Clicked="OnDeleteButtonClicked" />
+            </Grid>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

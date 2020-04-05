@@ -1,0 +1,47 @@
+E:\Faculta\Licenta\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.deps.json
+E:\Faculta\Licenta\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.dll
+E:\Faculta\Licenta\MedTime\MedTime\bin\Debug\netstandard2.0\ref\MedTime.dll
+E:\Faculta\Licenta\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.pdb
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.csprojAssemblyReference.cache
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.AssemblyInfoInputs.cache
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.AssemblyInfo.cs
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.dll
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\ref\MedTime.dll
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.pdb
+E:\Faculta\Licenta\MedTime\MedTime\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.deps.json
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.dll
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.csprojAssemblyReference.cache
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.AssemblyInfoInputs.cache
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.AssemblyInfo.cs
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\bin\Debug\netstandard2.0\ref\MedTime.dll
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.pdb
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\CRUDMedicamente.xaml.g.cs
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\GasesteFarmacii.xaml.g.cs
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\ListaMedicamente.xaml.g.cs
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.dll
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\ref\MedTime.dll
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.pdb
+E:\Faculta\Licenta\Implementare\MedTime\MedTime\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.deps.json
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.dll
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\bin\Debug\netstandard2.0\ref\MedTime.dll
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\bin\Debug\netstandard2.0\MedTime.pdb
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\CRUDMedicamente.xaml.g.cs
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\GasesteFarmacii.xaml.g.cs
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\ListaMedicamente.xaml.g.cs
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.AssemblyInfoInputs.cache
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.AssemblyInfo.cs
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.dll
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\ref\MedTime.dll
+C:\Users\Ionut\Desktop\Proiecte\Versiune actuala\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.pdb

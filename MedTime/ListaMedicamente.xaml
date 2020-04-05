@@ -1,0 +1,18 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedTime.ListaMedicamente"
+             Title="Listă medicamente">
+    <ContentPage.Content>
+        <StackLayout x:Name="stackLayout">
+                <ListView x:Name="listView" Margin="20" ItemSelected="OnListViewItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                        <ImageCell Text="{Binding Nume}" Detail="{Binding Ora, StringFormat='{}{0:hh\\:mm}'}" ImageSource="icon4">
+                        </ImageCell>
+                    </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
