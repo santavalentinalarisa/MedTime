@@ -26,6 +26,7 @@ namespace MedTime.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::MedTime.Droid.Resource.Drawable.plugin_lc_smallicon;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MedTime.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::MedTime.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::MedTime.Droid.Resource.Attribute.font;
@@ -5989,10 +5990,13 @@ namespace MedTime.Droid
 			public const int notify_panel_notification_icon_bg = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_dark = 2131165327;
+			public const int plugin_lc_smallicon = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_light = 2131165328;
+			public const int tooltip_frame_dark = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int tooltip_frame_light = 2131165329;
 			
 			static Drawable()
 			{

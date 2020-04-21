@@ -11,15 +11,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "SearchPlaces/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/SearchPlaces.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SearchPlaces.dll": {}
-        }
-      },
       "sqlite-net-pcl/1.6.292": {
         "type": "package",
         "dependencies": {
@@ -85,6 +76,20 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v4": "23.0.1.3"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.LocalNotifications.dll": {}
         }
       },
       "Xamarin.Android.Arch.Core.Common/1.1.1.1": {
@@ -971,7 +976,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "SearchPlaces": "1.0.0",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.Maps": "4.2.0.709249",
@@ -1016,18 +1021,6 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
-      ]
-    },
-    "SearchPlaces/1.0.0": {
-      "sha512": "ZBmZrfNYySaA3F4fsdGrUdHCf/IWB/pHeB85WtgfklzUhlhb1oWBLgk1ueyXzrFTz0l2oRzChnK6IxwJzZ1C2g==",
-      "type": "package",
-      "path": "searchplaces/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SearchPlaces.dll",
-        "searchplaces.1.0.0.nupkg.sha512",
-        "searchplaces.nuspec"
       ]
     },
     "sqlite-net-pcl/1.6.292": {
@@ -1188,6 +1181,42 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugins.Notifier/3.0.1": {
+      "sha512": "QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
+      "type": "package",
+      "path": "xam.plugins.notifier/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.XML",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.dll.mdb",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/UAP10/Plugin.LocalNotifications.XML",
+        "lib/UAP10/Plugin.LocalNotifications.dll",
+        "lib/UAP10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.pri",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.XML",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.LocalNotifications.deps.json",
+        "lib/netstandard1.0/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.xml",
+        "xam.plugins.notifier.3.0.1.nupkg.sha512",
+        "xam.plugins.notifier.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.1.1.1": {
@@ -2336,7 +2365,7 @@
     "MonoAndroid,Version=v9.0": [
       "MedTime >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
-      "SearchPlaces >= 1.0.0",
+      "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.709249",
@@ -2350,11 +2379,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Faculta\\Licenta\\Implementare\\MedTime\\MedTime.Android\\MedTime.Android.csproj",
+      "projectUniqueName": "E:\\Faculta\\Licenta\\Implementare\\GitHub\\MedTime\\MedTime.Android\\MedTime.Android.csproj",
       "projectName": "MedTime.Android",
-      "projectPath": "E:\\Faculta\\Licenta\\Implementare\\MedTime\\MedTime.Android\\MedTime.Android.csproj",
+      "projectPath": "E:\\Faculta\\Licenta\\Implementare\\GitHub\\MedTime\\MedTime.Android\\MedTime.Android.csproj",
       "packagesPath": "C:\\Users\\Larisa\\.nuget\\packages\\",
-      "outputPath": "E:\\Faculta\\Licenta\\Implementare\\MedTime\\MedTime.Android\\obj\\",
+      "outputPath": "E:\\Faculta\\Licenta\\Implementare\\GitHub\\MedTime\\MedTime.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2375,8 +2404,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "E:\\Faculta\\Licenta\\Implementare\\MedTime\\MedTime\\MedTime.csproj": {
-              "projectPath": "E:\\Faculta\\Licenta\\Implementare\\MedTime\\MedTime\\MedTime.csproj"
+            "E:\\Faculta\\Licenta\\Implementare\\GitHub\\MedTime\\MedTime\\MedTime.csproj": {
+              "projectPath": "E:\\Faculta\\Licenta\\Implementare\\GitHub\\MedTime\\MedTime\\MedTime.csproj"
             }
           }
         }
@@ -2389,9 +2418,9 @@
             "target": "Package",
             "version": "[12.0.3, )"
           },
-          "SearchPlaces": {
+          "Xam.Plugins.Notifier": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[3.0.1, )"
           },
           "Xamarin.Android.Support.Core.Utils": {
             "target": "Package",

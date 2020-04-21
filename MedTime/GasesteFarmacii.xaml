@@ -10,16 +10,8 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <places:PlacesBar x:Name="search_bar"
-                          Placeholder="Source"
-                          PlaceholderColor="Gray"
-                          TextColor="Black" 
-                          BackgroundColor="WhiteSmoke"
-                          HorizontalOptions="Center"
-                              Grid.Row="0"
-                      />
 
-            <mymap:Map x:Name="mylocalmap" 
+        <mymap:Map x:Name="mylocalmap" 
                    IsShowingUser="True"
                    HorizontalOptions="FillAndExpand" 
                    VerticalOptions="FillAndExpand"

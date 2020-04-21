@@ -20,10 +20,19 @@
                 <DatePicker x:Name="dpf" Date="{Binding DataFinal}" Grid.Row="2" Grid.Column="1" MinimumDate="{x:Static sys:DateTime.Now}" MaximumDate="12/31/2020"></DatePicker>
             </Grid>
             <Grid>
+                <Label Text="Porneste notificarile" />
+
+                <Switch x:Name="_switch"   
+                        HorizontalOptions="EndAndExpand"
+                        Toggled="OnSwitchToggled" />
+            </Grid>
+            <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
+                
+               
 
                 <Button Text="Salvare" Clicked="OnSaveButtonClicked" />
                 <Button Grid.Column="1" Text="Ștergere" Clicked="OnDeleteButtonClicked" />

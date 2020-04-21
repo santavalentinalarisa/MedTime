@@ -11,7 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
-          "SearchPlaces": "1.0.0",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.Maps": "4.2.0.709249",
@@ -32,14 +32,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.3.23909"
-          }
-        }
-      },
-      "SearchPlaces/1.0.0": {
-        "runtime": {
-          "lib/netstandard2.0/SearchPlaces.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -87,6 +79,18 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {
             "assemblyVersion": "4.1.4.0",
             "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "runtime": {
+          "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Plugin.LocalNotifications.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -157,13 +161,6 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "SearchPlaces/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ZBmZrfNYySaA3F4fsdGrUdHCf/IWB/pHeB85WtgfklzUhlhb1oWBLgk1ueyXzrFTz0l2oRzChnK6IxwJzZ1C2g==",
-      "path": "searchplaces/1.0.0",
-      "hashPath": "searchplaces.1.0.0.nupkg.sha512"
-    },
     "sqlite-net-pcl/1.6.292": {
       "type": "package",
       "serviceable": true,
@@ -191,6 +188,13 @@
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xam.Plugins.Notifier/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
+      "path": "xam.plugins.notifier/3.0.1",
+      "hashPath": "xam.plugins.notifier.3.0.1.nupkg.sha512"
     },
     "Xamarin.Essentials/1.2.0": {
       "type": "package",

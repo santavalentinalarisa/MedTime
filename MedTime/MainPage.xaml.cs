@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using MedTime.MenuItems;
-using MedTime.Views;
+
 
 namespace MedTime
 {

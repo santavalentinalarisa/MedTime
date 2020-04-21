@@ -17,15 +17,11 @@ namespace MedTime {
     public partial class GasesteFarmacii : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::SearchPlaces.PlacesBar search_bar;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Maps.Map mylocalmap;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GasesteFarmacii));
-            search_bar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::SearchPlaces.PlacesBar>(this, "search_bar");
             mylocalmap = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Maps.Map>(this, "mylocalmap");
         }
     }
