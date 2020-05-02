@@ -47,3 +47,4 @@ E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime\obj\Debug\netstandard2.0\
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime\obj\Debug\netstandard2.0\ref\MedTime.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.pdb
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime\obj\Debug\netstandard2.0\MedTime.csprojAssemblyReference.cache
