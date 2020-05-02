@@ -7,6 +7,8 @@ E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\andr
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\Plugin.LocalNotifications.Abstractions.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\Plugin.LocalNotifications.dll
+E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\ProgressRing.Forms.Plugin.Android.dll
+E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\ProgressRing.Forms.Plugin.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\SQLite-net.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_green.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
@@ -79,12 +81,12 @@ E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\andr
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Web.Services.dll
+E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Collections.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Linq.Expressions.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Reflection.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll
-E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Linq.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Threading.dll
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\android\assets\System.Reflection.Extensions.dll

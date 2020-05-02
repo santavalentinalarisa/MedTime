@@ -78,6 +78,20 @@
           "lib/MonoAndroid10/_._": {}
         }
       },
+      "Xam.Plugins.Forms.ProgressRing/0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll": {},
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll": {},
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll": {}
+        }
+      },
       "Xam.Plugins.Notifier/3.0.1": {
         "type": "package",
         "dependencies": {
@@ -976,6 +990,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugins.Forms.ProgressRing": "0.1.2",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249",
@@ -1181,6 +1196,22 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugins.Forms.ProgressRing/0.1.2": {
+      "sha512": "TqxIQo9uiq0EXPSIet8eouoF0Vs1Al30Urd++LXkH2lCQPMJzr5aCrwnCrTi9/4V229njCgUw53+Au6xWbZwHg==",
+      "type": "package",
+      "path": "xam.plugins.forms.progressring/0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll",
+        "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll",
+        "lib/Xamarin.iOS10/ProgressRing.Forms.Plugin.dll",
+        "lib/Xamarin.iOS10/ProgressRing.Forms.Plugin.iOS.dll",
+        "lib/portable-net45+wp80+win8+wpa81/ProgressRing.Forms.Plugin.dll",
+        "xam.plugins.forms.progressring.0.1.2.nupkg.sha512",
+        "xam.plugins.forms.progressring.nuspec"
       ]
     },
     "Xam.Plugins.Notifier/3.0.1": {
@@ -2365,6 +2396,7 @@
     "MonoAndroid,Version=v9.0": [
       "MedTime >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
+      "Xam.Plugins.Forms.ProgressRing >= 0.1.2",
       "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
       "Xamarin.Essentials >= 1.2.0",
@@ -2417,6 +2449,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "Xam.Plugins.Forms.ProgressRing": {
+            "target": "Package",
+            "version": "[0.1.2, )"
           },
           "Xam.Plugins.Notifier": {
             "target": "Package",

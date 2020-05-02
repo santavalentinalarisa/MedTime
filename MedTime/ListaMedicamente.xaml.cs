@@ -19,6 +19,13 @@ namespace MedTime
         {
             base.OnAppearing();
             listView.ItemsSource = await App.Database.GetMedicationsAsync();
+            foreach (Medicament medicament in listView.ItemsSource)
+            {
+                if (medicament.DataFinal < DateTime.Now.Date)
+                {
+                    await App.Database.DeleteMedicationAsync(medicament);
+                }
+            }
         }
         async void AddMedication(object sender, EventArgs e)
         {

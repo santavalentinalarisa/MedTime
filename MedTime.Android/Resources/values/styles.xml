@@ -16,17 +16,39 @@
     <item name="colorPrimaryDark">#1976D2</item>
     <!-- colorAccent is used as the default value for colorControlActivated
          which is used to tint widgets -->
-    <item name="colorAccent">#FF4081</item>
+    <item name="colorAccent">#007fff</item>
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
     <item name="windowActionModeOverlay">true</item>
 
+    <item name="android:datePickerDialogTheme">@style/MyDatePickerDialogTheme</item>
+    <item name="android:timePickerDialogTheme">@style/TimePickerDialogTheme</item>
     <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
   </style>
+  
+    <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#007fff</item>
+    </style>
+ 
 
-  <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
-    <item name="colorAccent">#FF4081</item>
+  <style name="MyDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+    <item name="colorAccent">#007fff</item>
+    <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
   </style>
-
+  
+   <style name="MyDatePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+    <item name="android:headerBackground">#007fff</item>
+  </style>
+  
+  <style name="TimePickerDialogTheme" parent="@style/Theme.AppCompat.Light.Dialog">
+    <item name="colorAccent">#007fff</item>
+    <item name="android:timePickerStyle">@style/TimePickerDialogStyle</item>
+  </style>
+  
+ <style name="TimePickerDialogStyle" parent="@android:style/Widget.Material.Light.TimePicker">
+    <item name="colorAccent">#007fff</item>
+    <item name="android:timePickerMode">clock</item>
+    <item name="android:headerBackground">#007fff</item>
+ </style>
   
 </resources>

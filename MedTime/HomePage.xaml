@@ -1,13 +1,18 @@
 ﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
              x:Class="MedTime.HomePage"
              Title="Acasă">
+    <!--<Grid>
+        <control:ProgressRing RingThickness="20" Progress="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        <Button Text="+" WidthRequest="60" HeightRequest="60" CornerRadius="30" VerticalOptions="End" HorizontalOptions ="End" Margin="0,0,50,50" BackgroundColor="LightGray" Clicked="AdaugareMedicament"></Button>
+    </Grid> -->
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Bine ați venit!"
+            <Label x:Name="urmator" Text=""
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button Text="+" WidthRequest="60" HeightRequest="60" CornerRadius="30" VerticalOptions="End" HorizontalOptions ="End" Margin="0,0,50,50" BackgroundColor="LightGray" Clicked="AdaugareMedicament"></Button>
+                HorizontalOptions="CenterAndExpand"  /> 
+           <Button Text="+" WidthRequest="60" HeightRequest="60" CornerRadius="30" VerticalOptions="End" HorizontalOptions ="End" Margin="0,0,50,50" BackgroundColor="LightGray" Clicked="AdaugareMedicament"></Button>
         </StackLayout>
     
     </ContentPage.Content>

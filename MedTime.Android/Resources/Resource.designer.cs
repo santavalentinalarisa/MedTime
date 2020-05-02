@@ -27,6 +27,1821 @@ namespace MedTime.Droid
 		public static void UpdateIdValues()
 		{
 			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::MedTime.Droid.Resource.Drawable.plugin_lc_smallicon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_fade_in = global::MedTime.Droid.Resource.Animation.abc_fade_in;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_fade_out = global::MedTime.Droid.Resource.Animation.abc_fade_out;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::MedTime.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_popup_enter = global::MedTime.Droid.Resource.Animation.abc_popup_enter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_popup_exit = global::MedTime.Droid.Resource.Animation.abc_popup_exit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MedTime.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_slide_in_bottom = global::MedTime.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_slide_in_top = global::MedTime.Droid.Resource.Animation.abc_slide_in_top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_slide_out_bottom = global::MedTime.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_slide_out_top = global::MedTime.Droid.Resource.Animation.abc_slide_out_top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::MedTime.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::MedTime.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.design_snackbar_in = global::MedTime.Droid.Resource.Animation.design_snackbar_in;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.design_snackbar_out = global::MedTime.Droid.Resource.Animation.design_snackbar_out;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animator.design_appbar_state_list_animator = global::MedTime.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarDivider = global::MedTime.Droid.Resource.Attribute.actionBarDivider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarItemBackground = global::MedTime.Droid.Resource.Attribute.actionBarItemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarPopupTheme = global::MedTime.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarSize = global::MedTime.Droid.Resource.Attribute.actionBarSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarSplitStyle = global::MedTime.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarStyle = global::MedTime.Droid.Resource.Attribute.actionBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarTabBarStyle = global::MedTime.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarTabStyle = global::MedTime.Droid.Resource.Attribute.actionBarTabStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarTabTextStyle = global::MedTime.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarTheme = global::MedTime.Droid.Resource.Attribute.actionBarTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarWidgetTheme = global::MedTime.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionButtonStyle = global::MedTime.Droid.Resource.Attribute.actionButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionDropDownStyle = global::MedTime.Droid.Resource.Attribute.actionDropDownStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionLayout = global::MedTime.Droid.Resource.Attribute.actionLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionMenuTextAppearance = global::MedTime.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionMenuTextColor = global::MedTime.Droid.Resource.Attribute.actionMenuTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeBackground = global::MedTime.Droid.Resource.Attribute.actionModeBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::MedTime.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeCloseDrawable = global::MedTime.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeCopyDrawable = global::MedTime.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeCutDrawable = global::MedTime.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeFindDrawable = global::MedTime.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModePasteDrawable = global::MedTime.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModePopupWindowStyle = global::MedTime.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::MedTime.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeShareDrawable = global::MedTime.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeSplitBackground = global::MedTime.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeStyle = global::MedTime.Droid.Resource.Attribute.actionModeStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::MedTime.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionOverflowButtonStyle = global::MedTime.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionOverflowMenuStyle = global::MedTime.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionProviderClass = global::MedTime.Droid.Resource.Attribute.actionProviderClass;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionViewClass = global::MedTime.Droid.Resource.Attribute.actionViewClass;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.activityChooserViewStyle = global::MedTime.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::MedTime.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alertDialogCenterButtons = global::MedTime.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alertDialogStyle = global::MedTime.Droid.Resource.Attribute.alertDialogStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alertDialogTheme = global::MedTime.Droid.Resource.Attribute.alertDialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.allowStacking = global::MedTime.Droid.Resource.Attribute.allowStacking;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alpha = global::MedTime.Droid.Resource.Attribute.alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.arrowHeadLength = global::MedTime.Droid.Resource.Attribute.arrowHeadLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.arrowShaftLength = global::MedTime.Droid.Resource.Attribute.arrowShaftLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::MedTime.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.background = global::MedTime.Droid.Resource.Attribute.background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.backgroundSplit = global::MedTime.Droid.Resource.Attribute.backgroundSplit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.backgroundStacked = global::MedTime.Droid.Resource.Attribute.backgroundStacked;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.backgroundTint = global::MedTime.Droid.Resource.Attribute.backgroundTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.backgroundTintMode = global::MedTime.Droid.Resource.Attribute.backgroundTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.barLength = global::MedTime.Droid.Resource.Attribute.barLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_autoHide = global::MedTime.Droid.Resource.Attribute.behavior_autoHide;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_hideable = global::MedTime.Droid.Resource.Attribute.behavior_hideable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_overlapTop = global::MedTime.Droid.Resource.Attribute.behavior_overlapTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_peekHeight = global::MedTime.Droid.Resource.Attribute.behavior_peekHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_skipCollapsed = global::MedTime.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.borderWidth = global::MedTime.Droid.Resource.Attribute.borderWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.borderlessButtonStyle = global::MedTime.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.bottomSheetDialogTheme = global::MedTime.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.bottomSheetStyle = global::MedTime.Droid.Resource.Attribute.bottomSheetStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarButtonStyle = global::MedTime.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::MedTime.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::MedTime.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::MedTime.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarStyle = global::MedTime.Droid.Resource.Attribute.buttonBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonGravity = global::MedTime.Droid.Resource.Attribute.buttonGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonPanelSideLayout = global::MedTime.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonStyle = global::MedTime.Droid.Resource.Attribute.buttonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonStyleSmall = global::MedTime.Droid.Resource.Attribute.buttonStyleSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonTint = global::MedTime.Droid.Resource.Attribute.buttonTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonTintMode = global::MedTime.Droid.Resource.Attribute.buttonTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardBackgroundColor = global::MedTime.Droid.Resource.Attribute.cardBackgroundColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardCornerRadius = global::MedTime.Droid.Resource.Attribute.cardCornerRadius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardElevation = global::MedTime.Droid.Resource.Attribute.cardElevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardMaxElevation = global::MedTime.Droid.Resource.Attribute.cardMaxElevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardPreventCornerOverlap = global::MedTime.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardUseCompatPadding = global::MedTime.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.checkboxStyle = global::MedTime.Droid.Resource.Attribute.checkboxStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.checkedTextViewStyle = global::MedTime.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.closeIcon = global::MedTime.Droid.Resource.Attribute.closeIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.closeItemLayout = global::MedTime.Droid.Resource.Attribute.closeItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.collapseContentDescription = global::MedTime.Droid.Resource.Attribute.collapseContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.collapseIcon = global::MedTime.Droid.Resource.Attribute.collapseIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.collapsedTitleGravity = global::MedTime.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::MedTime.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.color = global::MedTime.Droid.Resource.Attribute.color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorAccent = global::MedTime.Droid.Resource.Attribute.colorAccent;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorBackgroundFloating = global::MedTime.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorButtonNormal = global::MedTime.Droid.Resource.Attribute.colorButtonNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorControlActivated = global::MedTime.Droid.Resource.Attribute.colorControlActivated;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorControlHighlight = global::MedTime.Droid.Resource.Attribute.colorControlHighlight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorControlNormal = global::MedTime.Droid.Resource.Attribute.colorControlNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorPrimary = global::MedTime.Droid.Resource.Attribute.colorPrimary;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorPrimaryDark = global::MedTime.Droid.Resource.Attribute.colorPrimaryDark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::MedTime.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.commitIcon = global::MedTime.Droid.Resource.Attribute.commitIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetEnd = global::MedTime.Droid.Resource.Attribute.contentInsetEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetEndWithActions = global::MedTime.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetLeft = global::MedTime.Droid.Resource.Attribute.contentInsetLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetRight = global::MedTime.Droid.Resource.Attribute.contentInsetRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetStart = global::MedTime.Droid.Resource.Attribute.contentInsetStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::MedTime.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPadding = global::MedTime.Droid.Resource.Attribute.contentPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPaddingBottom = global::MedTime.Droid.Resource.Attribute.contentPaddingBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPaddingLeft = global::MedTime.Droid.Resource.Attribute.contentPaddingLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPaddingRight = global::MedTime.Droid.Resource.Attribute.contentPaddingRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPaddingTop = global::MedTime.Droid.Resource.Attribute.contentPaddingTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentScrim = global::MedTime.Droid.Resource.Attribute.contentScrim;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.controlBackground = global::MedTime.Droid.Resource.Attribute.controlBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.counterEnabled = global::MedTime.Droid.Resource.Attribute.counterEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.counterMaxLength = global::MedTime.Droid.Resource.Attribute.counterMaxLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.counterOverflowTextAppearance = global::MedTime.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.counterTextAppearance = global::MedTime.Droid.Resource.Attribute.counterTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.customNavigationLayout = global::MedTime.Droid.Resource.Attribute.customNavigationLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.defaultQueryHint = global::MedTime.Droid.Resource.Attribute.defaultQueryHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dialogPreferredPadding = global::MedTime.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dialogTheme = global::MedTime.Droid.Resource.Attribute.dialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.displayOptions = global::MedTime.Droid.Resource.Attribute.displayOptions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.divider = global::MedTime.Droid.Resource.Attribute.divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dividerHorizontal = global::MedTime.Droid.Resource.Attribute.dividerHorizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dividerPadding = global::MedTime.Droid.Resource.Attribute.dividerPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dividerVertical = global::MedTime.Droid.Resource.Attribute.dividerVertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.drawableSize = global::MedTime.Droid.Resource.Attribute.drawableSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.drawerArrowStyle = global::MedTime.Droid.Resource.Attribute.drawerArrowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dropDownListViewStyle = global::MedTime.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::MedTime.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.editTextBackground = global::MedTime.Droid.Resource.Attribute.editTextBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.editTextColor = global::MedTime.Droid.Resource.Attribute.editTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.editTextStyle = global::MedTime.Droid.Resource.Attribute.editTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.elevation = global::MedTime.Droid.Resource.Attribute.elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.errorEnabled = global::MedTime.Droid.Resource.Attribute.errorEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.errorTextAppearance = global::MedTime.Droid.Resource.Attribute.errorTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MedTime.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expanded = global::MedTime.Droid.Resource.Attribute.expanded;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleGravity = global::MedTime.Droid.Resource.Attribute.expandedTitleGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMargin = global::MedTime.Droid.Resource.Attribute.expandedTitleMargin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginBottom = global::MedTime.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginEnd = global::MedTime.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginStart = global::MedTime.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginTop = global::MedTime.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::MedTime.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.fabSize = global::MedTime.Droid.Resource.Attribute.fabSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.foregroundInsidePadding = global::MedTime.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.gapBetweenBars = global::MedTime.Droid.Resource.Attribute.gapBetweenBars;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.goIcon = global::MedTime.Droid.Resource.Attribute.goIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.headerLayout = global::MedTime.Droid.Resource.Attribute.headerLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.height = global::MedTime.Droid.Resource.Attribute.height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.hideOnContentScroll = global::MedTime.Droid.Resource.Attribute.hideOnContentScroll;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.hintAnimationEnabled = global::MedTime.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.hintEnabled = global::MedTime.Droid.Resource.Attribute.hintEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.hintTextAppearance = global::MedTime.Droid.Resource.Attribute.hintTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.homeAsUpIndicator = global::MedTime.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.homeLayout = global::MedTime.Droid.Resource.Attribute.homeLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.icon = global::MedTime.Droid.Resource.Attribute.icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.iconifiedByDefault = global::MedTime.Droid.Resource.Attribute.iconifiedByDefault;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.imageButtonStyle = global::MedTime.Droid.Resource.Attribute.imageButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.indeterminateProgressStyle = global::MedTime.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.initialActivityCount = global::MedTime.Droid.Resource.Attribute.initialActivityCount;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.insetForeground = global::MedTime.Droid.Resource.Attribute.insetForeground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.isLightTheme = global::MedTime.Droid.Resource.Attribute.isLightTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemBackground = global::MedTime.Droid.Resource.Attribute.itemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemIconTint = global::MedTime.Droid.Resource.Attribute.itemIconTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemPadding = global::MedTime.Droid.Resource.Attribute.itemPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemTextAppearance = global::MedTime.Droid.Resource.Attribute.itemTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemTextColor = global::MedTime.Droid.Resource.Attribute.itemTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.keylines = global::MedTime.Droid.Resource.Attribute.keylines;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout = global::MedTime.Droid.Resource.Attribute.layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layoutManager = global::MedTime.Droid.Resource.Attribute.layoutManager;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_anchor = global::MedTime.Droid.Resource.Attribute.layout_anchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_anchorGravity = global::MedTime.Droid.Resource.Attribute.layout_anchorGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_behavior = global::MedTime.Droid.Resource.Attribute.layout_behavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_collapseMode = global::MedTime.Droid.Resource.Attribute.layout_collapseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::MedTime.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::MedTime.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_insetEdge = global::MedTime.Droid.Resource.Attribute.layout_insetEdge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_keyline = global::MedTime.Droid.Resource.Attribute.layout_keyline;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_scrollFlags = global::MedTime.Droid.Resource.Attribute.layout_scrollFlags;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_scrollInterpolator = global::MedTime.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::MedTime.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listDividerAlertDialog = global::MedTime.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listItemLayout = global::MedTime.Droid.Resource.Attribute.listItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listLayout = global::MedTime.Droid.Resource.Attribute.listLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listMenuViewStyle = global::MedTime.Droid.Resource.Attribute.listMenuViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPopupWindowStyle = global::MedTime.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeight = global::MedTime.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::MedTime.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::MedTime.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::MedTime.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::MedTime.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.logo = global::MedTime.Droid.Resource.Attribute.logo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.logoDescription = global::MedTime.Droid.Resource.Attribute.logoDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.maxActionInlineWidth = global::MedTime.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.maxButtonHeight = global::MedTime.Droid.Resource.Attribute.maxButtonHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.measureWithLargestChild = global::MedTime.Droid.Resource.Attribute.measureWithLargestChild;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.menu = global::MedTime.Droid.Resource.Attribute.menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.multiChoiceItemLayout = global::MedTime.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.navigationContentDescription = global::MedTime.Droid.Resource.Attribute.navigationContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.navigationIcon = global::MedTime.Droid.Resource.Attribute.navigationIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.navigationMode = global::MedTime.Droid.Resource.Attribute.navigationMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.overlapAnchor = global::MedTime.Droid.Resource.Attribute.overlapAnchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.paddingBottomNoButtons = global::MedTime.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.paddingEnd = global::MedTime.Droid.Resource.Attribute.paddingEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.paddingStart = global::MedTime.Droid.Resource.Attribute.paddingStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.paddingTopNoTitle = global::MedTime.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.panelBackground = global::MedTime.Droid.Resource.Attribute.panelBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.panelMenuListTheme = global::MedTime.Droid.Resource.Attribute.panelMenuListTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.panelMenuListWidth = global::MedTime.Droid.Resource.Attribute.panelMenuListWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleContentDescription = global::MedTime.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleDrawable = global::MedTime.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleEnabled = global::MedTime.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleTint = global::MedTime.Droid.Resource.Attribute.passwordToggleTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleTintMode = global::MedTime.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.popupMenuStyle = global::MedTime.Droid.Resource.Attribute.popupMenuStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.popupTheme = global::MedTime.Droid.Resource.Attribute.popupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.popupWindowStyle = global::MedTime.Droid.Resource.Attribute.popupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.preserveIconSpacing = global::MedTime.Droid.Resource.Attribute.preserveIconSpacing;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.pressedTranslationZ = global::MedTime.Droid.Resource.Attribute.pressedTranslationZ;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.progressBarPadding = global::MedTime.Droid.Resource.Attribute.progressBarPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.progressBarStyle = global::MedTime.Droid.Resource.Attribute.progressBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.queryBackground = global::MedTime.Droid.Resource.Attribute.queryBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.queryHint = global::MedTime.Droid.Resource.Attribute.queryHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.radioButtonStyle = global::MedTime.Droid.Resource.Attribute.radioButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.ratingBarStyle = global::MedTime.Droid.Resource.Attribute.ratingBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.ratingBarStyleIndicator = global::MedTime.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.ratingBarStyleSmall = global::MedTime.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.reverseLayout = global::MedTime.Droid.Resource.Attribute.reverseLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.rippleColor = global::MedTime.Droid.Resource.Attribute.rippleColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.scrimAnimationDuration = global::MedTime.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::MedTime.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.searchHintIcon = global::MedTime.Droid.Resource.Attribute.searchHintIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.searchIcon = global::MedTime.Droid.Resource.Attribute.searchIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.searchViewStyle = global::MedTime.Droid.Resource.Attribute.searchViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.seekBarStyle = global::MedTime.Droid.Resource.Attribute.seekBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.selectableItemBackground = global::MedTime.Droid.Resource.Attribute.selectableItemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::MedTime.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.showAsAction = global::MedTime.Droid.Resource.Attribute.showAsAction;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.showDividers = global::MedTime.Droid.Resource.Attribute.showDividers;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.showText = global::MedTime.Droid.Resource.Attribute.showText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.showTitle = global::MedTime.Droid.Resource.Attribute.showTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.singleChoiceItemLayout = global::MedTime.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.spanCount = global::MedTime.Droid.Resource.Attribute.spanCount;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.spinBars = global::MedTime.Droid.Resource.Attribute.spinBars;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::MedTime.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.spinnerStyle = global::MedTime.Droid.Resource.Attribute.spinnerStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.splitTrack = global::MedTime.Droid.Resource.Attribute.splitTrack;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.srcCompat = global::MedTime.Droid.Resource.Attribute.srcCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.stackFromEnd = global::MedTime.Droid.Resource.Attribute.stackFromEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.state_above_anchor = global::MedTime.Droid.Resource.Attribute.state_above_anchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.state_collapsed = global::MedTime.Droid.Resource.Attribute.state_collapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.state_collapsible = global::MedTime.Droid.Resource.Attribute.state_collapsible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.statusBarBackground = global::MedTime.Droid.Resource.Attribute.statusBarBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.statusBarScrim = global::MedTime.Droid.Resource.Attribute.statusBarScrim;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subMenuArrow = global::MedTime.Droid.Resource.Attribute.subMenuArrow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.submitBackground = global::MedTime.Droid.Resource.Attribute.submitBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subtitle = global::MedTime.Droid.Resource.Attribute.subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subtitleTextAppearance = global::MedTime.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subtitleTextColor = global::MedTime.Droid.Resource.Attribute.subtitleTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subtitleTextStyle = global::MedTime.Droid.Resource.Attribute.subtitleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.suggestionRowLayout = global::MedTime.Droid.Resource.Attribute.suggestionRowLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.switchMinWidth = global::MedTime.Droid.Resource.Attribute.switchMinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.switchPadding = global::MedTime.Droid.Resource.Attribute.switchPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.switchStyle = global::MedTime.Droid.Resource.Attribute.switchStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.switchTextAppearance = global::MedTime.Droid.Resource.Attribute.switchTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabBackground = global::MedTime.Droid.Resource.Attribute.tabBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabContentStart = global::MedTime.Droid.Resource.Attribute.tabContentStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabGravity = global::MedTime.Droid.Resource.Attribute.tabGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabIndicatorColor = global::MedTime.Droid.Resource.Attribute.tabIndicatorColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabIndicatorHeight = global::MedTime.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabMaxWidth = global::MedTime.Droid.Resource.Attribute.tabMaxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabMinWidth = global::MedTime.Droid.Resource.Attribute.tabMinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabMode = global::MedTime.Droid.Resource.Attribute.tabMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPadding = global::MedTime.Droid.Resource.Attribute.tabPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPaddingBottom = global::MedTime.Droid.Resource.Attribute.tabPaddingBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPaddingEnd = global::MedTime.Droid.Resource.Attribute.tabPaddingEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPaddingStart = global::MedTime.Droid.Resource.Attribute.tabPaddingStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPaddingTop = global::MedTime.Droid.Resource.Attribute.tabPaddingTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabSelectedTextColor = global::MedTime.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabTextAppearance = global::MedTime.Droid.Resource.Attribute.tabTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabTextColor = global::MedTime.Droid.Resource.Attribute.tabTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAllCaps = global::MedTime.Droid.Resource.Attribute.textAllCaps;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::MedTime.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItem = global::MedTime.Droid.Resource.Attribute.textAppearanceListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::MedTime.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItemSmall = global::MedTime.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::MedTime.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MedTime.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::MedTime.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::MedTime.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textColorAlertDialogListItem = global::MedTime.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textColorSearchUrl = global::MedTime.Droid.Resource.Attribute.textColorSearchUrl;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.theme = global::MedTime.Droid.Resource.Attribute.theme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.thickness = global::MedTime.Droid.Resource.Attribute.thickness;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.thumbTextPadding = global::MedTime.Droid.Resource.Attribute.thumbTextPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.thumbTint = global::MedTime.Droid.Resource.Attribute.thumbTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.thumbTintMode = global::MedTime.Droid.Resource.Attribute.thumbTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tickMark = global::MedTime.Droid.Resource.Attribute.tickMark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tickMarkTint = global::MedTime.Droid.Resource.Attribute.tickMarkTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tickMarkTintMode = global::MedTime.Droid.Resource.Attribute.tickMarkTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tint = global::MedTime.Droid.Resource.Attribute.tint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tintMode = global::MedTime.Droid.Resource.Attribute.tintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.title = global::MedTime.Droid.Resource.Attribute.title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleEnabled = global::MedTime.Droid.Resource.Attribute.titleEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMargin = global::MedTime.Droid.Resource.Attribute.titleMargin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMarginBottom = global::MedTime.Droid.Resource.Attribute.titleMarginBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMarginEnd = global::MedTime.Droid.Resource.Attribute.titleMarginEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMarginStart = global::MedTime.Droid.Resource.Attribute.titleMarginStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMarginTop = global::MedTime.Droid.Resource.Attribute.titleMarginTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMargins = global::MedTime.Droid.Resource.Attribute.titleMargins;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleTextAppearance = global::MedTime.Droid.Resource.Attribute.titleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleTextColor = global::MedTime.Droid.Resource.Attribute.titleTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleTextStyle = global::MedTime.Droid.Resource.Attribute.titleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.toolbarId = global::MedTime.Droid.Resource.Attribute.toolbarId;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::MedTime.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.toolbarStyle = global::MedTime.Droid.Resource.Attribute.toolbarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.track = global::MedTime.Droid.Resource.Attribute.track;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.trackTint = global::MedTime.Droid.Resource.Attribute.trackTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.trackTintMode = global::MedTime.Droid.Resource.Attribute.trackTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.useCompatPadding = global::MedTime.Droid.Resource.Attribute.useCompatPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.voiceIcon = global::MedTime.Droid.Resource.Attribute.voiceIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowActionBar = global::MedTime.Droid.Resource.Attribute.windowActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowActionBarOverlay = global::MedTime.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowActionModeOverlay = global::MedTime.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowFixedHeightMajor = global::MedTime.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowFixedHeightMinor = global::MedTime.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowFixedWidthMajor = global::MedTime.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowFixedWidthMinor = global::MedTime.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowMinWidthMajor = global::MedTime.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowMinWidthMinor = global::MedTime.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowNoTitle = global::MedTime.Droid.Resource.Attribute.windowNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::MedTime.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::MedTime.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MedTime.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MedTime.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::MedTime.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::MedTime.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_btn_colored_text_material = global::MedTime.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_color_highlight_material = global::MedTime.Droid.Resource.Color.abc_color_highlight_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_hint_foreground_material_dark = global::MedTime.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_hint_foreground_material_light = global::MedTime.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_input_method_navigation_guard = global::MedTime.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::MedTime.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::MedTime.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_primary_text_material_dark = global::MedTime.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_primary_text_material_light = global::MedTime.Droid.Resource.Color.abc_primary_text_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_search_url_text = global::MedTime.Droid.Resource.Color.abc_search_url_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_search_url_text_normal = global::MedTime.Droid.Resource.Color.abc_search_url_text_normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_search_url_text_pressed = global::MedTime.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_search_url_text_selected = global::MedTime.Droid.Resource.Color.abc_search_url_text_selected;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_secondary_text_material_dark = global::MedTime.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_secondary_text_material_light = global::MedTime.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_btn_checkable = global::MedTime.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_default = global::MedTime.Droid.Resource.Color.abc_tint_default;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_edittext = global::MedTime.Droid.Resource.Color.abc_tint_edittext;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_seek_thumb = global::MedTime.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_spinner = global::MedTime.Droid.Resource.Color.abc_tint_spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_switch_track = global::MedTime.Droid.Resource.Color.abc_tint_switch_track;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.accent_material_dark = global::MedTime.Droid.Resource.Color.accent_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.accent_material_light = global::MedTime.Droid.Resource.Color.accent_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.background_floating_material_dark = global::MedTime.Droid.Resource.Color.background_floating_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.background_floating_material_light = global::MedTime.Droid.Resource.Color.background_floating_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.background_material_dark = global::MedTime.Droid.Resource.Color.background_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.background_material_light = global::MedTime.Droid.Resource.Color.background_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::MedTime.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_disabled_material_light = global::MedTime.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::MedTime.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_inverse_material_light = global::MedTime.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_material_dark = global::MedTime.Droid.Resource.Color.bright_foreground_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_material_light = global::MedTime.Droid.Resource.Color.bright_foreground_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.button_material_dark = global::MedTime.Droid.Resource.Color.button_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.button_material_light = global::MedTime.Droid.Resource.Color.button_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.cardview_dark_background = global::MedTime.Droid.Resource.Color.cardview_dark_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.cardview_light_background = global::MedTime.Droid.Resource.Color.cardview_light_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.cardview_shadow_end_color = global::MedTime.Droid.Resource.Color.cardview_shadow_end_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.cardview_shadow_start_color = global::MedTime.Droid.Resource.Color.cardview_shadow_start_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::MedTime.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_error = global::MedTime.Droid.Resource.Color.design_error;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_shadow_end_color = global::MedTime.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_shadow_mid_color = global::MedTime.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_shadow_start_color = global::MedTime.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::MedTime.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::MedTime.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::MedTime.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::MedTime.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_snackbar_background_color = global::MedTime.Droid.Resource.Color.design_snackbar_background_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_tint_password_toggle = global::MedTime.Droid.Resource.Color.design_tint_password_toggle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::MedTime.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.dim_foreground_disabled_material_light = global::MedTime.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.dim_foreground_material_dark = global::MedTime.Droid.Resource.Color.dim_foreground_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.dim_foreground_material_light = global::MedTime.Droid.Resource.Color.dim_foreground_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.foreground_material_dark = global::MedTime.Droid.Resource.Color.foreground_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.foreground_material_light = global::MedTime.Droid.Resource.Color.foreground_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.highlighted_text_material_dark = global::MedTime.Droid.Resource.Color.highlighted_text_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.highlighted_text_material_light = global::MedTime.Droid.Resource.Color.highlighted_text_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_blue_grey_800 = global::MedTime.Droid.Resource.Color.material_blue_grey_800;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_blue_grey_900 = global::MedTime.Droid.Resource.Color.material_blue_grey_900;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_blue_grey_950 = global::MedTime.Droid.Resource.Color.material_blue_grey_950;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_deep_teal_200 = global::MedTime.Droid.Resource.Color.material_deep_teal_200;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_deep_teal_500 = global::MedTime.Droid.Resource.Color.material_deep_teal_500;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_100 = global::MedTime.Droid.Resource.Color.material_grey_100;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_300 = global::MedTime.Droid.Resource.Color.material_grey_300;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_50 = global::MedTime.Droid.Resource.Color.material_grey_50;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_600 = global::MedTime.Droid.Resource.Color.material_grey_600;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_800 = global::MedTime.Droid.Resource.Color.material_grey_800;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_850 = global::MedTime.Droid.Resource.Color.material_grey_850;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_900 = global::MedTime.Droid.Resource.Color.material_grey_900;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.notification_action_color_filter = global::MedTime.Droid.Resource.Color.notification_action_color_filter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.notification_icon_bg_color = global::MedTime.Droid.Resource.Color.notification_icon_bg_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.notification_material_background_media_default_color = global::MedTime.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_dark_material_dark = global::MedTime.Droid.Resource.Color.primary_dark_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_dark_material_light = global::MedTime.Droid.Resource.Color.primary_dark_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_material_dark = global::MedTime.Droid.Resource.Color.primary_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_material_light = global::MedTime.Droid.Resource.Color.primary_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_text_default_material_dark = global::MedTime.Droid.Resource.Color.primary_text_default_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_text_default_material_light = global::MedTime.Droid.Resource.Color.primary_text_default_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_text_disabled_material_dark = global::MedTime.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_text_disabled_material_light = global::MedTime.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.ripple_material_dark = global::MedTime.Droid.Resource.Color.ripple_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.ripple_material_light = global::MedTime.Droid.Resource.Color.ripple_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.secondary_text_default_material_dark = global::MedTime.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.secondary_text_default_material_light = global::MedTime.Droid.Resource.Color.secondary_text_default_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.secondary_text_disabled_material_dark = global::MedTime.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.secondary_text_disabled_material_light = global::MedTime.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::MedTime.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_disabled_material_light = global::MedTime.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_material_dark = global::MedTime.Droid.Resource.Color.switch_thumb_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_material_light = global::MedTime.Droid.Resource.Color.switch_thumb_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::MedTime.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_normal_material_light = global::MedTime.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MedTime.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::MedTime.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MedTime.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MedTime.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_height_material = global::MedTime.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_width_material = global::MedTime.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MedTime.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MedTime.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::MedTime.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::MedTime.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::MedTime.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::MedTime.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MedTime.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::MedTime.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_control_corner_material = global::MedTime.Droid.Resource.Dimension.abc_control_corner_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_control_inset_material = global::MedTime.Droid.Resource.Dimension.abc_control_inset_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_control_padding_material = global::MedTime.Droid.Resource.Dimension.abc_control_padding_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::MedTime.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::MedTime.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::MedTime.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::MedTime.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MedTime.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MedTime.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_min_width_major = global::MedTime.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::MedTime.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_padding_material = global::MedTime.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::MedTime.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::MedTime.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::MedTime.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::MedTime.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::MedTime.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MedTime.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MedTime.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MedTime.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MedTime.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::MedTime.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_floating_window_z = global::MedTime.Droid.Resource.Dimension.abc_floating_window_z;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MedTime.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_panel_menu_list_width = global::MedTime.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_progress_bar_height_material = global::MedTime.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_search_view_preferred_height = global::MedTime.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_search_view_preferred_width = global::MedTime.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::MedTime.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MedTime.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::MedTime.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_switch_padding = global::MedTime.Droid.Resource.Dimension.abc_switch_padding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_body_1_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_body_2_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_button_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_caption_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_1_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_2_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_3_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_4_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_headline_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_large_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_medium_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_menu_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_small_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_subhead_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MedTime.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_title_material = global::MedTime.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::MedTime.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::MedTime.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.cardview_default_elevation = global::MedTime.Droid.Resource.Dimension.cardview_default_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.cardview_default_radius = global::MedTime.Droid.Resource.Dimension.cardview_default_radius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_appbar_elevation = global::MedTime.Droid.Resource.Dimension.design_appbar_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_height = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_margin = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::MedTime.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MedTime.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MedTime.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_border_width = global::MedTime.Droid.Resource.Dimension.design_fab_border_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_elevation = global::MedTime.Droid.Resource.Dimension.design_fab_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_image_size = global::MedTime.Droid.Resource.Dimension.design_fab_image_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_size_mini = global::MedTime.Droid.Resource.Dimension.design_fab_size_mini;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_size_normal = global::MedTime.Droid.Resource.Dimension.design_fab_size_normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::MedTime.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_elevation = global::MedTime.Droid.Resource.Dimension.design_navigation_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_icon_padding = global::MedTime.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_icon_size = global::MedTime.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_max_width = global::MedTime.Droid.Resource.Dimension.design_navigation_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_padding_bottom = global::MedTime.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::MedTime.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::MedTime.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::MedTime.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_elevation = global::MedTime.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MedTime.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_max_width = global::MedTime.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_min_width = global::MedTime.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::MedTime.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::MedTime.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MedTime.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_text_size = global::MedTime.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_tab_max_width = global::MedTime.Droid.Resource.Dimension.design_tab_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::MedTime.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_tab_text_size = global::MedTime.Droid.Resource.Dimension.design_tab_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_tab_text_size_2line = global::MedTime.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::MedTime.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.disabled_alpha_material_light = global::MedTime.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::MedTime.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::MedTime.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_light = global::MedTime.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.hint_alpha_material_dark = global::MedTime.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.hint_alpha_material_light = global::MedTime.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::MedTime.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::MedTime.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MedTime.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MedTime.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MedTime.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_action_icon_size = global::MedTime.Droid.Resource.Dimension.notification_action_icon_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_action_text_size = global::MedTime.Droid.Resource.Dimension.notification_action_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_big_circle_margin = global::MedTime.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_content_margin_start = global::MedTime.Droid.Resource.Dimension.notification_content_margin_start;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_large_icon_height = global::MedTime.Droid.Resource.Dimension.notification_large_icon_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_large_icon_width = global::MedTime.Droid.Resource.Dimension.notification_large_icon_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_main_column_padding_top = global::MedTime.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_media_narrow_margin = global::MedTime.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_right_icon_size = global::MedTime.Droid.Resource.Dimension.notification_right_icon_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_right_side_padding_top = global::MedTime.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_small_icon_background_padding = global::MedTime.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::MedTime.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_subtext_size = global::MedTime.Droid.Resource.Dimension.notification_subtext_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_top_pad = global::MedTime.Droid.Resource.Dimension.notification_top_pad;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_top_pad_large_text = global::MedTime.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::MedTime.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_borderless_material = global::MedTime.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_material = global::MedTime.Droid.Resource.Drawable.abc_btn_check_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MedTime.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MedTime.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_colored_material = global::MedTime.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::MedTime.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_material = global::MedTime.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MedTime.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MedTime.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MedTime.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MedTime.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::MedTime.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_top_material = global::MedTime.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_control_background_material = global::MedTime.Droid.Resource.Drawable.abc_control_background_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_dialog_material_background = global::MedTime.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_edit_text_material = global::MedTime.Droid.Resource.Drawable.abc_edit_text_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_ab_back_material = global::MedTime.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MedTime.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_clear_material = global::MedTime.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::MedTime.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MedTime.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::MedTime.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MedTime.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_search_api_material = global::MedTime.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_star_black_16dp = global::MedTime.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_star_black_36dp = global::MedTime.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_star_black_48dp = global::MedTime.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::MedTime.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::MedTime.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::MedTime.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::MedTime.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_item_background_holo_dark = global::MedTime.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_item_background_holo_light = global::MedTime.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_focused_holo = global::MedTime.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_longpressed_holo = global::MedTime.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::MedTime.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::MedTime.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MedTime.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MedTime.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MedTime.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MedTime.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::MedTime.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_holo_light = global::MedTime.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MedTime.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::MedTime.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::MedTime.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_material = global::MedTime.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_small_material = global::MedTime.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MedTime.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MedTime.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::MedTime.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::MedTime.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_track_material = global::MedTime.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MedTime.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::MedTime.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_switch_thumb_material = global::MedTime.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_tab_indicator_material = global::MedTime.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_text_cursor_material = global::MedTime.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MedTime.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MedTime.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MedTime.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MedTime.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MedTime.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MedTime.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MedTime.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_material = global::MedTime.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_vector_test = global::MedTime.Droid.Resource.Drawable.abc_vector_test;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.avd_hide_password = global::MedTime.Droid.Resource.Drawable.avd_hide_password;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.avd_show_password = global::MedTime.Droid.Resource.Drawable.avd_show_password;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_bottom_navigation_item_background = global::MedTime.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_fab_background = global::MedTime.Droid.Resource.Drawable.design_fab_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_ic_visibility = global::MedTime.Droid.Resource.Drawable.design_ic_visibility;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_ic_visibility_off = global::MedTime.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_password_eye = global::MedTime.Droid.Resource.Drawable.design_password_eye;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_snackbar_background = global::MedTime.Droid.Resource.Drawable.design_snackbar_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.navigation_empty_icon = global::MedTime.Droid.Resource.Drawable.navigation_empty_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_action_background = global::MedTime.Droid.Resource.Drawable.notification_action_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg = global::MedTime.Droid.Resource.Drawable.notification_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_low = global::MedTime.Droid.Resource.Drawable.notification_bg_low;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_low_normal = global::MedTime.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_low_pressed = global::MedTime.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_normal = global::MedTime.Droid.Resource.Drawable.notification_bg_normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_normal_pressed = global::MedTime.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_icon_background = global::MedTime.Droid.Resource.Drawable.notification_icon_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_template_icon_bg = global::MedTime.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_template_icon_low_bg = global::MedTime.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_tile_bg = global::MedTime.Droid.Resource.Drawable.notification_tile_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::MedTime.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action0 = global::MedTime.Droid.Resource.Id.action0;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar = global::MedTime.Droid.Resource.Id.action_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_activity_content = global::MedTime.Droid.Resource.Id.action_bar_activity_content;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_container = global::MedTime.Droid.Resource.Id.action_bar_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_root = global::MedTime.Droid.Resource.Id.action_bar_root;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_spinner = global::MedTime.Droid.Resource.Id.action_bar_spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_subtitle = global::MedTime.Droid.Resource.Id.action_bar_subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_title = global::MedTime.Droid.Resource.Id.action_bar_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_container = global::MedTime.Droid.Resource.Id.action_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_context_bar = global::MedTime.Droid.Resource.Id.action_context_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_divider = global::MedTime.Droid.Resource.Id.action_divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_image = global::MedTime.Droid.Resource.Id.action_image;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_menu_divider = global::MedTime.Droid.Resource.Id.action_menu_divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_menu_presenter = global::MedTime.Droid.Resource.Id.action_menu_presenter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_mode_bar = global::MedTime.Droid.Resource.Id.action_mode_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_mode_bar_stub = global::MedTime.Droid.Resource.Id.action_mode_bar_stub;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_mode_close_button = global::MedTime.Droid.Resource.Id.action_mode_close_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_text = global::MedTime.Droid.Resource.Id.action_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.actions = global::MedTime.Droid.Resource.Id.actions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.activity_chooser_view_content = global::MedTime.Droid.Resource.Id.activity_chooser_view_content;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.add = global::MedTime.Droid.Resource.Id.add;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.alertTitle = global::MedTime.Droid.Resource.Id.alertTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.all = global::MedTime.Droid.Resource.Id.all;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.always = global::MedTime.Droid.Resource.Id.always;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.auto = global::MedTime.Droid.Resource.Id.auto;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.beginning = global::MedTime.Droid.Resource.Id.beginning;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.bottom = global::MedTime.Droid.Resource.Id.bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.buttonPanel = global::MedTime.Droid.Resource.Id.buttonPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.cancel_action = global::MedTime.Droid.Resource.Id.cancel_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.center = global::MedTime.Droid.Resource.Id.center;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.center_horizontal = global::MedTime.Droid.Resource.Id.center_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.center_vertical = global::MedTime.Droid.Resource.Id.center_vertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.checkbox = global::MedTime.Droid.Resource.Id.checkbox;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.chronometer = global::MedTime.Droid.Resource.Id.chronometer;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.clip_horizontal = global::MedTime.Droid.Resource.Id.clip_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.clip_vertical = global::MedTime.Droid.Resource.Id.clip_vertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.collapseActionView = global::MedTime.Droid.Resource.Id.collapseActionView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.container = global::MedTime.Droid.Resource.Id.container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.contentPanel = global::MedTime.Droid.Resource.Id.contentPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.coordinator = global::MedTime.Droid.Resource.Id.coordinator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.custom = global::MedTime.Droid.Resource.Id.custom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.customPanel = global::MedTime.Droid.Resource.Id.customPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.decor_content_parent = global::MedTime.Droid.Resource.Id.decor_content_parent;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.default_activity_button = global::MedTime.Droid.Resource.Id.default_activity_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_bottom_sheet = global::MedTime.Droid.Resource.Id.design_bottom_sheet;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_menu_item_action_area = global::MedTime.Droid.Resource.Id.design_menu_item_action_area;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_menu_item_action_area_stub = global::MedTime.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_menu_item_text = global::MedTime.Droid.Resource.Id.design_menu_item_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_navigation_view = global::MedTime.Droid.Resource.Id.design_navigation_view;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.disableHome = global::MedTime.Droid.Resource.Id.disableHome;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.edit_query = global::MedTime.Droid.Resource.Id.edit_query;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.end = global::MedTime.Droid.Resource.Id.end;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.end_padder = global::MedTime.Droid.Resource.Id.end_padder;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.enterAlways = global::MedTime.Droid.Resource.Id.enterAlways;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.enterAlwaysCollapsed = global::MedTime.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.exitUntilCollapsed = global::MedTime.Droid.Resource.Id.exitUntilCollapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.expand_activities_button = global::MedTime.Droid.Resource.Id.expand_activities_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.expanded_menu = global::MedTime.Droid.Resource.Id.expanded_menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.fill = global::MedTime.Droid.Resource.Id.fill;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.fill_horizontal = global::MedTime.Droid.Resource.Id.fill_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.fill_vertical = global::MedTime.Droid.Resource.Id.fill_vertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.@fixed = global::MedTime.Droid.Resource.Id.@fixed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.home = global::MedTime.Droid.Resource.Id.home;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.homeAsUp = global::MedTime.Droid.Resource.Id.homeAsUp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.icon = global::MedTime.Droid.Resource.Id.icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.icon_group = global::MedTime.Droid.Resource.Id.icon_group;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.ifRoom = global::MedTime.Droid.Resource.Id.ifRoom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.image = global::MedTime.Droid.Resource.Id.image;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.info = global::MedTime.Droid.Resource.Id.info;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::MedTime.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.largeLabel = global::MedTime.Droid.Resource.Id.largeLabel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.left = global::MedTime.Droid.Resource.Id.left;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.line1 = global::MedTime.Droid.Resource.Id.line1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.line3 = global::MedTime.Droid.Resource.Id.line3;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.listMode = global::MedTime.Droid.Resource.Id.listMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.list_item = global::MedTime.Droid.Resource.Id.list_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.masked = global::MedTime.Droid.Resource.Id.masked;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.media_actions = global::MedTime.Droid.Resource.Id.media_actions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.middle = global::MedTime.Droid.Resource.Id.middle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.mini = global::MedTime.Droid.Resource.Id.mini;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.multiply = global::MedTime.Droid.Resource.Id.multiply;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.navigation_header_container = global::MedTime.Droid.Resource.Id.navigation_header_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.never = global::MedTime.Droid.Resource.Id.never;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.none = global::MedTime.Droid.Resource.Id.none;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.normal = global::MedTime.Droid.Resource.Id.normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.notification_background = global::MedTime.Droid.Resource.Id.notification_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.notification_main_column = global::MedTime.Droid.Resource.Id.notification_main_column;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.notification_main_column_container = global::MedTime.Droid.Resource.Id.notification_main_column_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.parallax = global::MedTime.Droid.Resource.Id.parallax;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.parentPanel = global::MedTime.Droid.Resource.Id.parentPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.pin = global::MedTime.Droid.Resource.Id.pin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.progress_circular = global::MedTime.Droid.Resource.Id.progress_circular;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.progress_horizontal = global::MedTime.Droid.Resource.Id.progress_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.radio = global::MedTime.Droid.Resource.Id.radio;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.right = global::MedTime.Droid.Resource.Id.right;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.right_icon = global::MedTime.Droid.Resource.Id.right_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.right_side = global::MedTime.Droid.Resource.Id.right_side;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.screen = global::MedTime.Droid.Resource.Id.screen;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scroll = global::MedTime.Droid.Resource.Id.scroll;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scrollIndicatorDown = global::MedTime.Droid.Resource.Id.scrollIndicatorDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scrollIndicatorUp = global::MedTime.Droid.Resource.Id.scrollIndicatorUp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scrollView = global::MedTime.Droid.Resource.Id.scrollView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scrollable = global::MedTime.Droid.Resource.Id.scrollable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_badge = global::MedTime.Droid.Resource.Id.search_badge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_bar = global::MedTime.Droid.Resource.Id.search_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_button = global::MedTime.Droid.Resource.Id.search_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_close_btn = global::MedTime.Droid.Resource.Id.search_close_btn;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_edit_frame = global::MedTime.Droid.Resource.Id.search_edit_frame;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_go_btn = global::MedTime.Droid.Resource.Id.search_go_btn;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_mag_icon = global::MedTime.Droid.Resource.Id.search_mag_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_plate = global::MedTime.Droid.Resource.Id.search_plate;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_src_text = global::MedTime.Droid.Resource.Id.search_src_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_voice_btn = global::MedTime.Droid.Resource.Id.search_voice_btn;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.select_dialog_listview = global::MedTime.Droid.Resource.Id.select_dialog_listview;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.shortcut = global::MedTime.Droid.Resource.Id.shortcut;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.showCustom = global::MedTime.Droid.Resource.Id.showCustom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.showHome = global::MedTime.Droid.Resource.Id.showHome;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.showTitle = global::MedTime.Droid.Resource.Id.showTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.smallLabel = global::MedTime.Droid.Resource.Id.smallLabel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.snackbar_action = global::MedTime.Droid.Resource.Id.snackbar_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.snackbar_text = global::MedTime.Droid.Resource.Id.snackbar_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.snap = global::MedTime.Droid.Resource.Id.snap;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.spacer = global::MedTime.Droid.Resource.Id.spacer;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.split_action_bar = global::MedTime.Droid.Resource.Id.split_action_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.src_atop = global::MedTime.Droid.Resource.Id.src_atop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.src_in = global::MedTime.Droid.Resource.Id.src_in;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.src_over = global::MedTime.Droid.Resource.Id.src_over;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.start = global::MedTime.Droid.Resource.Id.start;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.status_bar_latest_event_content = global::MedTime.Droid.Resource.Id.status_bar_latest_event_content;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.submenuarrow = global::MedTime.Droid.Resource.Id.submenuarrow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.submit_area = global::MedTime.Droid.Resource.Id.submit_area;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.tabMode = global::MedTime.Droid.Resource.Id.tabMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.text = global::MedTime.Droid.Resource.Id.text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.text2 = global::MedTime.Droid.Resource.Id.text2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.textSpacerNoButtons = global::MedTime.Droid.Resource.Id.textSpacerNoButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.textSpacerNoTitle = global::MedTime.Droid.Resource.Id.textSpacerNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.text_input_password_toggle = global::MedTime.Droid.Resource.Id.text_input_password_toggle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.textinput_counter = global::MedTime.Droid.Resource.Id.textinput_counter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.textinput_error = global::MedTime.Droid.Resource.Id.textinput_error;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.time = global::MedTime.Droid.Resource.Id.time;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.title = global::MedTime.Droid.Resource.Id.title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.titleDividerNoCustom = global::MedTime.Droid.Resource.Id.titleDividerNoCustom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.title_template = global::MedTime.Droid.Resource.Id.title_template;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.top = global::MedTime.Droid.Resource.Id.top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.topPanel = global::MedTime.Droid.Resource.Id.topPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.touch_outside = global::MedTime.Droid.Resource.Id.touch_outside;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.transition_current_scene = global::MedTime.Droid.Resource.Id.transition_current_scene;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.transition_scene_layoutid_cache = global::MedTime.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.up = global::MedTime.Droid.Resource.Id.up;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.useLogo = global::MedTime.Droid.Resource.Id.useLogo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.view_offset_helper = global::MedTime.Droid.Resource.Id.view_offset_helper;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.visible = global::MedTime.Droid.Resource.Id.visible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.withText = global::MedTime.Droid.Resource.Id.withText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.wrap_content = global::MedTime.Droid.Resource.Id.wrap_content;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.abc_config_activityDefaultDur = global::MedTime.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.abc_config_activityShortDur = global::MedTime.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::MedTime.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::MedTime.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.cancel_button_image_alpha = global::MedTime.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::MedTime.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.hide_password_duration = global::MedTime.Droid.Resource.Integer.hide_password_duration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.show_password_duration = global::MedTime.Droid.Resource.Integer.show_password_duration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::MedTime.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_bar_title_item = global::MedTime.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_bar_up_container = global::MedTime.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_menu_item_layout = global::MedTime.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_menu_layout = global::MedTime.Droid.Resource.Layout.abc_action_menu_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_mode_bar = global::MedTime.Droid.Resource.Layout.abc_action_mode_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_mode_close_item_material = global::MedTime.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_activity_chooser_view = global::MedTime.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::MedTime.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::MedTime.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_material = global::MedTime.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_title_material = global::MedTime.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_dialog_title_material = global::MedTime.Droid.Resource.Layout.abc_dialog_title_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_expanded_menu_layout = global::MedTime.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::MedTime.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_icon = global::MedTime.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_layout = global::MedTime.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_radio = global::MedTime.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::MedTime.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_popup_menu_item_layout = global::MedTime.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_screen_content_include = global::MedTime.Droid.Resource.Layout.abc_screen_content_include;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_screen_simple = global::MedTime.Droid.Resource.Layout.abc_screen_simple;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MedTime.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_screen_toolbar = global::MedTime.Droid.Resource.Layout.abc_screen_toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MedTime.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_search_view = global::MedTime.Droid.Resource.Layout.abc_search_view;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_select_dialog_material = global::MedTime.Droid.Resource.Layout.abc_select_dialog_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_bottom_navigation_item = global::MedTime.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_bottom_sheet_dialog = global::MedTime.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_layout_snackbar = global::MedTime.Droid.Resource.Layout.design_layout_snackbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_layout_snackbar_include = global::MedTime.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_layout_tab_icon = global::MedTime.Droid.Resource.Layout.design_layout_tab_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_layout_tab_text = global::MedTime.Droid.Resource.Layout.design_layout_tab_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_menu_item_action_area = global::MedTime.Droid.Resource.Layout.design_menu_item_action_area;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_item = global::MedTime.Droid.Resource.Layout.design_navigation_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_item_header = global::MedTime.Droid.Resource.Layout.design_navigation_item_header;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_item_separator = global::MedTime.Droid.Resource.Layout.design_navigation_item_separator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_item_subheader = global::MedTime.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_menu = global::MedTime.Droid.Resource.Layout.design_navigation_menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_menu_item = global::MedTime.Droid.Resource.Layout.design_navigation_menu_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_text_input_password_icon = global::MedTime.Droid.Resource.Layout.design_text_input_password_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_action = global::MedTime.Droid.Resource.Layout.notification_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_action_tombstone = global::MedTime.Droid.Resource.Layout.notification_action_tombstone;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_media_action = global::MedTime.Droid.Resource.Layout.notification_media_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_media_cancel_action = global::MedTime.Droid.Resource.Layout.notification_media_cancel_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_big_media = global::MedTime.Droid.Resource.Layout.notification_template_big_media;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_custom = global::MedTime.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_narrow = global::MedTime.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::MedTime.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_custom_big = global::MedTime.Droid.Resource.Layout.notification_template_custom_big;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_icon_group = global::MedTime.Droid.Resource.Layout.notification_template_icon_group;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_lines_media = global::MedTime.Droid.Resource.Layout.notification_template_lines_media;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_media = global::MedTime.Droid.Resource.Layout.notification_template_media;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_media_custom = global::MedTime.Droid.Resource.Layout.notification_template_media_custom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_part_chronometer = global::MedTime.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_part_time = global::MedTime.Droid.Resource.Layout.notification_template_part_time;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.select_dialog_item_material = global::MedTime.Droid.Resource.Layout.select_dialog_item_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.select_dialog_multichoice_material = global::MedTime.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::MedTime.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::MedTime.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_bar_home_description = global::MedTime.Droid.Resource.String.abc_action_bar_home_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_bar_up_description = global::MedTime.Droid.Resource.String.abc_action_bar_up_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_menu_overflow_description = global::MedTime.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_mode_done = global::MedTime.Droid.Resource.String.abc_action_mode_done;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_activity_chooser_view_see_all = global::MedTime.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_activitychooserview_choose_application = global::MedTime.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_capital_off = global::MedTime.Droid.Resource.String.abc_capital_off;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_capital_on = global::MedTime.Droid.Resource.String.abc_capital_on;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_body_1_material = global::MedTime.Droid.Resource.String.abc_font_family_body_1_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_body_2_material = global::MedTime.Droid.Resource.String.abc_font_family_body_2_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_button_material = global::MedTime.Droid.Resource.String.abc_font_family_button_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_caption_material = global::MedTime.Droid.Resource.String.abc_font_family_caption_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_display_1_material = global::MedTime.Droid.Resource.String.abc_font_family_display_1_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_display_2_material = global::MedTime.Droid.Resource.String.abc_font_family_display_2_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_display_3_material = global::MedTime.Droid.Resource.String.abc_font_family_display_3_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_display_4_material = global::MedTime.Droid.Resource.String.abc_font_family_display_4_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_headline_material = global::MedTime.Droid.Resource.String.abc_font_family_headline_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_menu_material = global::MedTime.Droid.Resource.String.abc_font_family_menu_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_subhead_material = global::MedTime.Droid.Resource.String.abc_font_family_subhead_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_font_family_title_material = global::MedTime.Droid.Resource.String.abc_font_family_title_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_search_hint = global::MedTime.Droid.Resource.String.abc_search_hint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_clear = global::MedTime.Droid.Resource.String.abc_searchview_description_clear;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_query = global::MedTime.Droid.Resource.String.abc_searchview_description_query;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_search = global::MedTime.Droid.Resource.String.abc_searchview_description_search;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_submit = global::MedTime.Droid.Resource.String.abc_searchview_description_submit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_voice = global::MedTime.Droid.Resource.String.abc_searchview_description_voice;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_shareactionprovider_share_with = global::MedTime.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::MedTime.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_toolbar_collapse_description = global::MedTime.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.appbar_scrolling_view_behavior = global::MedTime.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.bottom_sheet_behavior = global::MedTime.Droid.Resource.String.bottom_sheet_behavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.character_counter_pattern = global::MedTime.Droid.Resource.String.character_counter_pattern;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.library_name = global::MedTime.Droid.Resource.String.library_name;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.password_toggle_content_description = global::MedTime.Droid.Resource.String.password_toggle_content_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.path_password_eye = global::MedTime.Droid.Resource.String.path_password_eye;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.path_password_eye_mask_strike_through = global::MedTime.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.path_password_eye_mask_visible = global::MedTime.Droid.Resource.String.path_password_eye_mask_visible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.path_password_strike_through = global::MedTime.Droid.Resource.String.path_password_strike_through;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.search_menu_title = global::MedTime.Droid.Resource.String.search_menu_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.status_bar_notification_info_overflow = global::MedTime.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.AlertDialog_AppCompat = global::MedTime.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::MedTime.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::MedTime.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::MedTime.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::MedTime.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MedTime.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MedTime.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_CardView = global::MedTime.Droid.Resource.Style.Base_CardView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MedTime.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MedTime.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MedTime.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MedTime.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MedTime.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MedTime.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MedTime.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::MedTime.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MedTime.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MedTime.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MedTime.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MedTime.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MedTime.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::MedTime.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MedTime.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MedTime.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::MedTime.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MedTime.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::MedTime.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MedTime.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::MedTime.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MedTime.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MedTime.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MedTime.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MedTime.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MedTime.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::MedTime.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.CardView = global::MedTime.Droid.Resource.Style.CardView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.CardView_Dark = global::MedTime.Droid.Resource.Style.CardView_Dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.CardView_Light = global::MedTime.Droid.Resource.Style.CardView_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_AppCompat = global::MedTime.Droid.Resource.Style.Platform_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_AppCompat_Light = global::MedTime.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MedTime.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MedTime.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MedTime.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_V21_AppCompat = global::MedTime.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::MedTime.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_V25_AppCompat = global::MedTime.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::MedTime.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MedTime.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MedTime.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MedTime.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MedTime.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MedTime.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MedTime.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MedTime.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Counter = global::MedTime.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MedTime.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Error = global::MedTime.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Hint = global::MedTime.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MedTime.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Tab = global::MedTime.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MedTime.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MedTime.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MedTime.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat = global::MedTime.Droid.Resource.Style.Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::MedTime.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight = global::MedTime.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MedTime.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MedTime.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MedTime.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MedTime.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MedTime.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MedTime.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MedTime.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MedTime.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::MedTime.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design = global::MedTime.Droid.Resource.Style.Theme_Design;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::MedTime.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_Light = global::MedTime.Droid.Resource.Style.Theme_Design_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MedTime.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::MedTime.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_NoActionBar = global::MedTime.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat = global::MedTime.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MedTime.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MedTime.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MedTime.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MedTime.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MedTime.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::MedTime.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MedTime.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MedTime.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MedTime.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MedTime.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MedTime.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_EditText = global::MedTime.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::MedTime.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MedTime.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::MedTime.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MedTime.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MedTime.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MedTime.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SearchView = global::MedTime.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MedTime.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MedTime.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MedTime.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::MedTime.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::MedTime.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::MedTime.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::MedTime.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::MedTime.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_NavigationView = global::MedTime.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MedTime.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_Snackbar = global::MedTime.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_TabLayout = global::MedTime.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_TextInputLayout = global::MedTime.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar = global::MedTime.Droid.Resource.Styleable.ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_background = global::MedTime.Droid.Resource.Styleable.ActionBar_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::MedTime.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::MedTime.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::MedTime.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MedTime.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::MedTime.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::MedTime.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::MedTime.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MedTime.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::MedTime.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_displayOptions = global::MedTime.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_divider = global::MedTime.Droid.Resource.Styleable.ActionBar_divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_elevation = global::MedTime.Droid.Resource.Styleable.ActionBar_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_height = global::MedTime.Droid.Resource.Styleable.ActionBar_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::MedTime.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MedTime.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_homeLayout = global::MedTime.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_icon = global::MedTime.Droid.Resource.Styleable.ActionBar_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MedTime.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_itemPadding = global::MedTime.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_logo = global::MedTime.Droid.Resource.Styleable.ActionBar_logo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_navigationMode = global::MedTime.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_popupTheme = global::MedTime.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::MedTime.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::MedTime.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_subtitle = global::MedTime.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::MedTime.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_title = global::MedTime.Droid.Resource.Styleable.ActionBar_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::MedTime.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBarLayout = global::MedTime.Droid.Resource.Styleable.ActionBarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MedTime.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMenuItemView = global::MedTime.Droid.Resource.Styleable.ActionMenuItemView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MedTime.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMenuView = global::MedTime.Droid.Resource.Styleable.ActionMenuView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode = global::MedTime.Droid.Resource.Styleable.ActionMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_background = global::MedTime.Droid.Resource.Styleable.ActionMode_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::MedTime.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::MedTime.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_height = global::MedTime.Droid.Resource.Styleable.ActionMode_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::MedTime.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::MedTime.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView = global::MedTime.Droid.Resource.Styleable.ActivityChooserView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MedTime.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MedTime.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog = global::MedTime.Droid.Resource.Styleable.AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_android_layout = global::MedTime.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MedTime.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::MedTime.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_listLayout = global::MedTime.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MedTime.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_showTitle = global::MedTime.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MedTime.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout = global::MedTime.Droid.Resource.Styleable.AppBarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_android_background = global::MedTime.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_elevation = global::MedTime.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_expanded = global::MedTime.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates = global::MedTime.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MedTime.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MedTime.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout = global::MedTime.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MedTime.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MedTime.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView = global::MedTime.Droid.Resource.Styleable.AppCompatImageView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_android_src = global::MedTime.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::MedTime.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_tint = global::MedTime.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::MedTime.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar = global::MedTime.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MedTime.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::MedTime.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MedTime.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MedTime.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper = global::MedTime.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MedTime.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MedTime.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MedTime.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MedTime.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MedTime.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MedTime.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MedTime.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView = global::MedTime.Droid.Resource.Styleable.AppCompatTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MedTime.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::MedTime.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme = global::MedTime.Droid.Resource.Styleable.AppCompatTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MedTime.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomNavigationView = global::MedTime.Droid.Resource.Styleable.BottomNavigationView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomNavigationView_elevation = global::MedTime.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::MedTime.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::MedTime.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::MedTime.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomNavigationView_menu = global::MedTime.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::MedTime.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MedTime.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MedTime.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MedTime.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ButtonBarLayout = global::MedTime.Droid.Resource.Styleable.ButtonBarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::MedTime.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView = global::MedTime.Droid.Resource.Styleable.CardView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_android_minHeight = global::MedTime.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_android_minWidth = global::MedTime.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::MedTime.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardCornerRadius = global::MedTime.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardElevation = global::MedTime.Droid.Resource.Styleable.CardView_cardElevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardMaxElevation = global::MedTime.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MedTime.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::MedTime.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPadding = global::MedTime.Droid.Resource.Styleable.CardView_contentPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::MedTime.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::MedTime.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingRight = global::MedTime.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingTop = global::MedTime.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MedTime.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem = global::MedTime.Droid.Resource.Styleable.ColorStateListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_alpha = global::MedTime.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::MedTime.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_android_color = global::MedTime.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CompoundButton = global::MedTime.Droid.Resource.Styleable.CompoundButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CompoundButton_android_button = global::MedTime.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CompoundButton_buttonTint = global::MedTime.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::MedTime.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MedTime.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DesignTheme = global::MedTime.Droid.Resource.Styleable.DesignTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MedTime.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MedTime.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_color = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::MedTime.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton = global::MedTime.Droid.Resource.Styleable.FloatingActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_elevation = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MedTime.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout = global::MedTime.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MedTime.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MedTime.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MedTime.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MedTime.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow = global::MedTime.Droid.Resource.Styleable.ListPopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MedTime.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MedTime.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup = global::MedTime.Droid.Resource.Styleable.MenuGroup;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MedTime.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_enabled = global::MedTime.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_id = global::MedTime.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::MedTime.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::MedTime.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_visible = global::MedTime.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem = global::MedTime.Droid.Resource.Styleable.MenuItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionLayout = global::MedTime.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::MedTime.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::MedTime.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MedTime.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_checkable = global::MedTime.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_checked = global::MedTime.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_enabled = global::MedTime.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_icon = global::MedTime.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_id = global::MedTime.Droid.Resource.Styleable.MenuItem_android_id;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::MedTime.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::MedTime.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_onClick = global::MedTime.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::MedTime.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_title = global::MedTime.Droid.Resource.Styleable.MenuItem_android_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::MedTime.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_visible = global::MedTime.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_showAsAction = global::MedTime.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView = global::MedTime.Droid.Resource.Styleable.MenuView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::MedTime.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::MedTime.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemBackground = global::MedTime.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MedTime.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::MedTime.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::MedTime.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MedTime.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::MedTime.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_subMenuArrow = global::MedTime.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView = global::MedTime.Droid.Resource.Styleable.NavigationView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_background = global::MedTime.Droid.Resource.Styleable.NavigationView_android_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MedTime.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::MedTime.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_elevation = global::MedTime.Droid.Resource.Styleable.NavigationView_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_headerLayout = global::MedTime.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemBackground = global::MedTime.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemIconTint = global::MedTime.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::MedTime.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemTextColor = global::MedTime.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_menu = global::MedTime.Droid.Resource.Styleable.NavigationView_menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindow = global::MedTime.Droid.Resource.Styleable.PopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MedTime.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::MedTime.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::MedTime.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindowBackgroundState = global::MedTime.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MedTime.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecycleListView = global::MedTime.Droid.Resource.Styleable.RecycleListView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MedTime.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MedTime.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView = global::MedTime.Droid.Resource.Styleable.RecyclerView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MedTime.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::MedTime.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::MedTime.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::MedTime.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_spanCount = global::MedTime.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::MedTime.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::MedTime.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MedTime.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::MedTime.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MedTime.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView = global::MedTime.Droid.Resource.Styleable.SearchView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_android_focusable = global::MedTime.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_android_imeOptions = global::MedTime.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_android_inputType = global::MedTime.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_android_maxWidth = global::MedTime.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_closeIcon = global::MedTime.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_commitIcon = global::MedTime.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::MedTime.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_goIcon = global::MedTime.Droid.Resource.Styleable.SearchView_goIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::MedTime.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_layout = global::MedTime.Droid.Resource.Styleable.SearchView_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_queryBackground = global::MedTime.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_queryHint = global::MedTime.Droid.Resource.Styleable.SearchView_queryHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_searchHintIcon = global::MedTime.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_searchIcon = global::MedTime.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_submitBackground = global::MedTime.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::MedTime.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_voiceIcon = global::MedTime.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout = global::MedTime.Droid.Resource.Styleable.SnackbarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MedTime.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_elevation = global::MedTime.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MedTime.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner = global::MedTime.Droid.Resource.Styleable.Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::MedTime.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_android_entries = global::MedTime.Droid.Resource.Styleable.Spinner_android_entries;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_android_popupBackground = global::MedTime.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_android_prompt = global::MedTime.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_popupTheme = global::MedTime.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat = global::MedTime.Droid.Resource.Styleable.SwitchCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::MedTime.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::MedTime.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::MedTime.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_showText = global::MedTime.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::MedTime.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::MedTime.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::MedTime.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MedTime.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MedTime.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::MedTime.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::MedTime.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_track = global::MedTime.Droid.Resource.Styleable.SwitchCompat_track;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_trackTint = global::MedTime.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::MedTime.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabItem = global::MedTime.Droid.Resource.Styleable.TabItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabItem_android_icon = global::MedTime.Droid.Resource.Styleable.TabItem_android_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabItem_android_layout = global::MedTime.Droid.Resource.Styleable.TabItem_android_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabItem_android_text = global::MedTime.Droid.Resource.Styleable.TabItem_android_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout = global::MedTime.Droid.Resource.Styleable.TabLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabBackground = global::MedTime.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabContentStart = global::MedTime.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabGravity = global::MedTime.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::MedTime.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MedTime.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::MedTime.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::MedTime.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMode = global::MedTime.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPadding = global::MedTime.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::MedTime.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::MedTime.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::MedTime.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::MedTime.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MedTime.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::MedTime.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::MedTime.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance = global::MedTime.Droid.Resource.Styleable.TextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::MedTime.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::MedTime.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout = global::MedTime.Droid.Resource.Styleable.TextInputLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::MedTime.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::MedTime.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::MedTime.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::MedTime.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MedTime.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MedTime.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::MedTime.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MedTime.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MedTime.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::MedTime.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MedTime.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MedTime.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MedTime.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MedTime.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MedTime.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MedTime.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar = global::MedTime.Droid.Resource.Styleable.Toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_android_gravity = global::MedTime.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_android_minHeight = global::MedTime.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_buttonGravity = global::MedTime.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::MedTime.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_collapseIcon = global::MedTime.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::MedTime.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MedTime.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::MedTime.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::MedTime.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::MedTime.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MedTime.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_logo = global::MedTime.Droid.Resource.Styleable.Toolbar_logo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_logoDescription = global::MedTime.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::MedTime.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::MedTime.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_navigationIcon = global::MedTime.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_popupTheme = global::MedTime.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitle = global::MedTime.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MedTime.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::MedTime.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_title = global::MedTime.Droid.Resource.Styleable.Toolbar_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMargin = global::MedTime.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::MedTime.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::MedTime.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::MedTime.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::MedTime.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMargins = global::MedTime.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::MedTime.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleTextColor = global::MedTime.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View = global::MedTime.Droid.Resource.Styleable.View;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_android_focusable = global::MedTime.Droid.Resource.Styleable.View_android_focusable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_android_theme = global::MedTime.Droid.Resource.Styleable.View_android_theme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_paddingEnd = global::MedTime.Droid.Resource.Styleable.View_paddingEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_paddingStart = global::MedTime.Droid.Resource.Styleable.View_paddingStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_theme = global::MedTime.Droid.Resource.Styleable.View_theme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper = global::MedTime.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::MedTime.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MedTime.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MedTime.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat = global::MedTime.Droid.Resource.Styleable.ViewStubCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::MedTime.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MedTime.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::MedTime.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MedTime.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::MedTime.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::MedTime.Droid.Resource.Attribute.font;
@@ -5935,6 +7750,9 @@ namespace MedTime.Droid
 			// aapt resource value: 0x7F07007F
 			public const int icon4 = 2131165311;
 			
+			// aapt resource value: 0x7F070080
+			public const int icon5 = 2131165312;
+			
 			// aapt resource value: 0x7F070078
 			public const int ic_mtrl_chip_checked_black = 2131165304;
 			
@@ -5944,59 +7762,59 @@ namespace MedTime.Droid
 			// aapt resource value: 0x7F07007A
 			public const int ic_mtrl_chip_close_circle = 2131165306;
 			
-			// aapt resource value: 0x7F070080
-			public const int mtrl_snackbar_background = 2131165312;
-			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_tabs_default_indicator = 2131165313;
+			public const int mtrl_snackbar_background = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int navigation_empty_icon = 2131165314;
+			public const int mtrl_tabs_default_indicator = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_action_background = 2131165315;
+			public const int navigation_empty_icon = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg = 2131165316;
+			public const int notification_action_background = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_low = 2131165317;
+			public const int notification_bg = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_low_normal = 2131165318;
+			public const int notification_bg_low = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_bg_low_pressed = 2131165319;
+			public const int notification_bg_low_normal = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg_normal = 2131165320;
+			public const int notification_bg_low_pressed = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_normal_pressed = 2131165321;
+			public const int notification_bg_normal = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_icon_background = 2131165322;
+			public const int notification_bg_normal_pressed = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_template_icon_bg = 2131165323;
+			public const int notification_icon_background = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_template_icon_low_bg = 2131165324;
+			public const int notification_template_icon_bg = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_tile_bg = 2131165325;
+			public const int notification_template_icon_low_bg = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notify_panel_notification_icon_bg = 2131165326;
+			public const int notification_tile_bg = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int plugin_lc_smallicon = 2131165327;
+			public const int notify_panel_notification_icon_bg = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_dark = 2131165328;
+			public const int plugin_lc_smallicon = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int tooltip_frame_light = 2131165329;
+			public const int tooltip_frame_dark = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int tooltip_frame_light = 2131165330;
 			
 			static Drawable()
 			{
@@ -7199,28 +9017,31 @@ namespace MedTime.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mtrl_chip_close_icon_content_description = 2131558463;
+			public const int library_name = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int password_toggle_content_description = 2131558464;
+			public const int mtrl_chip_close_icon_content_description = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int path_password_eye = 2131558465;
+			public const int password_toggle_content_description = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int path_password_eye_mask_strike_through = 2131558466;
+			public const int path_password_eye = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int path_password_eye_mask_visible = 2131558467;
+			public const int path_password_eye_mask_strike_through = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int path_password_strike_through = 2131558468;
+			public const int path_password_eye_mask_visible = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int search_menu_title = 2131558469;
+			public const int path_password_strike_through = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int status_bar_notification_info_overflow = 2131558470;
+			public const int search_menu_title = 2131558470;
+			
+			// aapt resource value: 0x7F0D0047
+			public const int status_bar_notification_info_overflow = 2131558471;
 			
 			static String()
 			{
@@ -7829,8 +9650,8 @@ namespace MedTime.Droid
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
-			// aapt resource value: 0x7F0E01F7
-			public const int collectionViewStyle = 2131624439;
+			// aapt resource value: 0x7F0E01FB
+			public const int collectionViewStyle = 2131624443;
 			
 			// aapt resource value: 0x7F0E00C6
 			public const int MainTheme = 2131624134;
@@ -7839,913 +9660,925 @@ namespace MedTime.Droid
 			public const int MainTheme_Base = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int Platform_AppCompat = 2131624136;
+			public const int MyDatePickerDialogTheme = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat_Light = 2131624137;
+			public const int MyDatePickerStyle = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int Platform_MaterialComponents = 2131624138;
+			public const int Platform_AppCompat = 2131624138;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents_Dialog = 2131624139;
+			public const int Platform_AppCompat_Light = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Light = 2131624140;
+			public const int Platform_MaterialComponents = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
+			public const int Platform_MaterialComponents_Dialog = 2131624141;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
+			public const int Platform_MaterialComponents_Light = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int Platform_V21_AppCompat = 2131624145;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat_Light = 2131624146;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V25_AppCompat = 2131624147;
+			public const int Platform_V21_AppCompat = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat_Light = 2131624148;
+			public const int Platform_V21_AppCompat_Light = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
+			public const int Platform_V25_AppCompat = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
+			public const int Platform_V25_AppCompat_Light = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
-			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624158;
 			
 			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
-			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
-			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
-			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
-			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624160;
 			
 			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624166;
+			
+			// aapt resource value: 0x7F0E00E1
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624161;
+			
+			// aapt resource value: 0x7F0E00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624162;
+			
+			// aapt resource value: 0x7F0E00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624163;
+			
+			// aapt resource value: 0x7F0E00E4
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624164;
+			
+			// aapt resource value: 0x7F0E00E5
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624165;
 			
 			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat = 2131624167;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624167;
 			
 			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Body1 = 2131624168;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624168;
 			
 			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body2 = 2131624169;
+			public const int TextAppearance_AppCompat = 2131624169;
 			
 			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Button = 2131624170;
+			public const int TextAppearance_AppCompat_Body1 = 2131624170;
 			
 			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Caption = 2131624171;
+			public const int TextAppearance_AppCompat_Body2 = 2131624171;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Display1 = 2131624172;
+			public const int TextAppearance_AppCompat_Button = 2131624172;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display2 = 2131624173;
+			public const int TextAppearance_AppCompat_Caption = 2131624173;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display3 = 2131624174;
+			public const int TextAppearance_AppCompat_Display1 = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display4 = 2131624175;
+			public const int TextAppearance_AppCompat_Display2 = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Headline = 2131624176;
+			public const int TextAppearance_AppCompat_Display3 = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Inverse = 2131624177;
+			public const int TextAppearance_AppCompat_Display4 = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Large = 2131624178;
+			public const int TextAppearance_AppCompat_Headline = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
+			public const int TextAppearance_AppCompat_Inverse = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
+			public const int TextAppearance_AppCompat_Large = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Medium = 2131624184;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Menu = 2131624186;
+			public const int TextAppearance_AppCompat_Medium = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
+			public const int TextAppearance_AppCompat_Menu = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Small = 2131624189;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Subhead = 2131624191;
+			public const int TextAppearance_AppCompat_Small = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Title = 2131624193;
+			public const int TextAppearance_AppCompat_Subhead = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
+			public const int TextAppearance_AppCompat_Title = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_Compat_Notification = 2131624215;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification_Info = 2131624216;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
+			public const int TextAppearance_Compat_Notification = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
+			public const int TextAppearance_Compat_Notification_Info = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Media = 2131624220;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Time = 2131624221;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
+			public const int TextAppearance_Compat_Notification_Media = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Title = 2131624223;
+			public const int TextAppearance_Compat_Notification_Time = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
+			public const int TextAppearance_Compat_Notification_Title = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_Counter = 2131624226;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Error = 2131624228;
+			public const int TextAppearance_Design_Counter = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_HelperText = 2131624229;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_Hint = 2131624230;
+			public const int TextAppearance_Design_Error = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
+			public const int TextAppearance_Design_HelperText = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Tab = 2131624232;
+			public const int TextAppearance_Design_Hint = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
+			public const int TextAppearance_Design_Tab = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Button = 2131624235;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
+			public const int TextAppearance_MaterialComponents_Button = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624248;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624249;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624250;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int ThemeOverlay_AppCompat = 2131624299;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_Dark = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624304;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_AppCompat_Light = 2131624305;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_MaterialComponents = 2131624306;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624317;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int Theme_AppCompat = 2131624251;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624251;
 			
 			// aapt resource value: 0x7F0E013C
-			public const int Theme_AppCompat_CompactMenu = 2131624252;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624252;
 			
-			// aapt resource value: 0x7F0E013D
-			public const int Theme_AppCompat_DayNight = 2131624253;
+			// aapt resource value: 0x7F0E016D
+			public const int ThemeOverlay_AppCompat = 2131624301;
 			
-			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624254;
+			// aapt resource value: 0x7F0E016E
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624302;
 			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624255;
+			// aapt resource value: 0x7F0E016F
+			public const int ThemeOverlay_AppCompat_Dark = 2131624303;
 			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624258;
+			// aapt resource value: 0x7F0E0170
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624304;
 			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624256;
+			// aapt resource value: 0x7F0E0171
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624305;
 			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624257;
+			// aapt resource value: 0x7F0E0172
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624306;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624259;
+			// aapt resource value: 0x7F0E0173
+			public const int ThemeOverlay_AppCompat_Light = 2131624307;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_Dialog = 2131624260;
+			// aapt resource value: 0x7F0E0174
+			public const int ThemeOverlay_MaterialComponents = 2131624308;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624263;
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624309;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_Dialog_Alert = 2131624261;
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624310;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624262;
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624311;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Light = 2131624264;
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624312;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624265;
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624313;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Light_Dialog = 2131624266;
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624314;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624269;
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624315;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624267;
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624316;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624268;
-			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624270;
-			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_NoActionBar = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_Design = 2131624272;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_Design_BottomSheetDialog = 2131624273;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_Design_Light = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_Light_NoActionBar = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_NoActionBar = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_MaterialComponents = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_MaterialComponents_Bridge = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents_CompactMenu = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_Dialog = 2131624282;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624285;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624284;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Light = 2131624286;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624288;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624291;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624294;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624293;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624295;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_NoActionBar = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624298;
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624317;
 			
 			// aapt resource value: 0x7F0E017E
-			public const int Widget_AppCompat_ActionBar = 2131624318;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624319;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624319;
+			
+			// aapt resource value: 0x7F0E013D
+			public const int Theme_AppCompat = 2131624253;
+			
+			// aapt resource value: 0x7F0E013E
+			public const int Theme_AppCompat_CompactMenu = 2131624254;
+			
+			// aapt resource value: 0x7F0E013F
+			public const int Theme_AppCompat_DayNight = 2131624255;
+			
+			// aapt resource value: 0x7F0E0140
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624256;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624257;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624260;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624258;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624259;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624261;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_Dialog = 2131624262;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624265;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_Dialog_Alert = 2131624263;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624264;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_Light = 2131624266;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624267;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Light_Dialog = 2131624268;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624271;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624269;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624270;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624272;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_AppCompat_NoActionBar = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_Design = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_Design_BottomSheetDialog = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_Design_Light = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_Design_Light_NoActionBar = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_Design_NoActionBar = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_MaterialComponents = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_MaterialComponents_Bridge = 2131624282;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_MaterialComponents_CompactMenu = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents_Dialog = 2131624284;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624287;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624285;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624286;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Light = 2131624288;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624291;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624293;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624296;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624294;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624295;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624297;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624298;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_MaterialComponents_NoActionBar = 2131624299;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624300;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624320;
+			public const int TimePickerDialogStyle = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624321;
+			public const int TimePickerDialogTheme = 2131624321;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624322;
+			public const int Widget_AppCompat_ActionBar = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionButton = 2131624323;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624324;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624325;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_ActionMode = 2131624326;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActivityChooserView = 2131624327;
+			public const int Widget_AppCompat_ActionButton = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624328;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_Button = 2131624329;
-			
-			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ButtonBar = 2131624335;
-			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624336;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_Button_Borderless = 2131624330;
+			public const int Widget_AppCompat_ActionMode = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624331;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624332;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_Colored = 2131624333;
-			
-			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Small = 2131624334;
-			
-			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624337;
-			
-			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624338;
+			public const int Widget_AppCompat_Button = 2131624333;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624339;
+			public const int Widget_AppCompat_ButtonBar = 2131624339;
 			
 			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624340;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624340;
+			
+			// aapt resource value: 0x7F0E018E
+			public const int Widget_AppCompat_Button_Borderless = 2131624334;
+			
+			// aapt resource value: 0x7F0E018F
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624335;
+			
+			// aapt resource value: 0x7F0E0190
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624336;
+			
+			// aapt resource value: 0x7F0E0191
+			public const int Widget_AppCompat_Button_Colored = 2131624337;
+			
+			// aapt resource value: 0x7F0E0192
+			public const int Widget_AppCompat_Button_Small = 2131624338;
 			
 			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624341;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624341;
 			
 			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_EditText = 2131624342;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624342;
 			
 			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_ImageButton = 2131624343;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624343;
 			
 			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_Light_ActionBar = 2131624344;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624344;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624345;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624345;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624346;
+			public const int Widget_AppCompat_EditText = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624347;
+			public const int Widget_AppCompat_ImageButton = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624348;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624349;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624350;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624351;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624352;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionButton = 2131624353;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624354;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624355;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624357;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624358;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624359;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624360;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624361;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624362;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624363;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_SearchView = 2131624364;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624365;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_ListMenuView = 2131624366;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_ListPopupWindow = 2131624367;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_ListView = 2131624368;
+			public const int Widget_AppCompat_Light_SearchView = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_ListView_DropDown = 2131624369;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_ListView_Menu = 2131624370;
+			public const int Widget_AppCompat_ListMenuView = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_PopupMenu = 2131624371;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624372;
+			public const int Widget_AppCompat_ListView = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_PopupWindow = 2131624373;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_ProgressBar = 2131624374;
+			public const int Widget_AppCompat_ListView_Menu = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624375;
+			public const int Widget_AppCompat_PopupMenu = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_RatingBar = 2131624376;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624377;
+			public const int Widget_AppCompat_PopupWindow = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_RatingBar_Small = 2131624378;
+			public const int Widget_AppCompat_ProgressBar = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_SearchView = 2131624379;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624380;
+			public const int Widget_AppCompat_RatingBar = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_SeekBar = 2131624381;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624382;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_Spinner = 2131624383;
+			public const int Widget_AppCompat_SearchView = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624384;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624385;
+			public const int Widget_AppCompat_SeekBar = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624386;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624387;
+			public const int Widget_AppCompat_Spinner = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_Toolbar = 2131624388;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624389;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_Compat_NotificationActionContainer = 2131624390;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_Compat_NotificationActionText = 2131624391;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_Design_AppBarLayout = 2131624392;
+			public const int Widget_AppCompat_Toolbar = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_Design_BottomNavigationView = 2131624393;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Design_BottomSheet_Modal = 2131624394;
+			public const int Widget_Compat_NotificationActionContainer = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Design_CollapsingToolbar = 2131624395;
+			public const int Widget_Compat_NotificationActionText = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_FloatingActionButton = 2131624396;
+			public const int Widget_Design_AppBarLayout = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_NavigationView = 2131624397;
+			public const int Widget_Design_BottomNavigationView = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624398;
+			public const int Widget_Design_BottomSheet_Modal = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_Snackbar = 2131624399;
+			public const int Widget_Design_CollapsingToolbar = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Design_TabLayout = 2131624400;
+			public const int Widget_Design_FloatingActionButton = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_TextInputLayout = 2131624401;
+			public const int Widget_Design_NavigationView = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624402;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624403;
+			public const int Widget_Design_Snackbar = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624404;
+			public const int Widget_Design_TabLayout = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624405;
+			public const int Widget_Design_TextInputLayout = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624406;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_Button = 2131624407;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_Button_Icon = 2131624408;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624409;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624410;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624411;
+			public const int Widget_MaterialComponents_Button = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624412;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624413;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624414;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624415;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624416;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_CardView = 2131624417;
-			
-			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_ChipGroup = 2131624422;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Chip_Action = 2131624418;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624419;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624420;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624421;
-			
-			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624423;
-			
-			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_NavigationView = 2131624424;
-			
-			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Snackbar = 2131624425;
+			public const int Widget_MaterialComponents_CardView = 2131624421;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624426;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624426;
+			
+			// aapt resource value: 0x7F0E01E6
+			public const int Widget_MaterialComponents_Chip_Action = 2131624422;
+			
+			// aapt resource value: 0x7F0E01E7
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624423;
+			
+			// aapt resource value: 0x7F0E01E8
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624424;
+			
+			// aapt resource value: 0x7F0E01E9
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_TabLayout = 2131624427;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624427;
 			
 			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624428;
+			public const int Widget_MaterialComponents_NavigationView = 2131624428;
 			
 			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624429;
+			public const int Widget_MaterialComponents_Snackbar = 2131624429;
 			
 			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624430;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624430;
 			
 			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624431;
+			public const int Widget_MaterialComponents_TabLayout = 2131624431;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624432;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624432;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624433;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624434;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624435;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624436;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_Toolbar = 2131624437;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_Support_CoordinatorLayout = 2131624438;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624438;
+			
+			// aapt resource value: 0x7F0E01F7
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624439;
+			
+			// aapt resource value: 0x7F0E01F8
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624440;
+			
+			// aapt resource value: 0x7F0E01F9
+			public const int Widget_MaterialComponents_Toolbar = 2131624441;
+			
+			// aapt resource value: 0x7F0E01FA
+			public const int Widget_Support_CoordinatorLayout = 2131624442;
 			
 			static Style()
 			{

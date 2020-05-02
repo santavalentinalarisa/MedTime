@@ -25,6 +25,7 @@
                 <Switch x:Name="_switch"   
                         HorizontalOptions="EndAndExpand"
                         Toggled="OnSwitchToggled" />
+
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>

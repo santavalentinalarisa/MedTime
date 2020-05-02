@@ -4,8 +4,6 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using MedTime.Models;
-
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Plugin.LocalNotifications;
@@ -18,13 +16,21 @@ namespace MedTime
         
         DateTime _time;
         public CRUDMedicamente(){
-        
-               InitializeComponent();
-               Device.StartTimer(TimeSpan.FromSeconds(1), OnTimerTick);
+
+            InitializeComponent();
+            Device.StartTimer(TimeSpan.FromSeconds(1), OnTimerTick);
         }
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var medicament = (Medicament)BindingContext;
+            if (medicament.DataStart < DateTime.Now) 
+            {
+                medicament.DataStart = DateTime.Now;
+            }
+            if (medicament.DataFinal < DateTime.Now)
+            {
+                medicament.DataFinal = DateTime.Now;
+            }
             await App.Database.SaveMedicationAsync(medicament);
             await Navigation.PopAsync();
         }
@@ -38,14 +44,12 @@ namespace MedTime
         {
             if (_switch.IsToggled && DateTime.Now >= _time)
             {
-                _switch.IsToggled = false;
+               _switch.IsToggled = false;
                 var titlu = "MedTime";
                 var mesaj = "Nu uita sa iei pastila!";
 
                 CrossLocalNotifications.Current.Show(titlu, mesaj);
-               // LocalNotificationsImplementation.NotificationIconId = Resources.Drawable.icon5.png;
-
-
+                CrossLocalNotifications.Current.Show(titlu, mesaj, 1, DateTime.Now.AddDays(1));
             }
 
             return true;
@@ -78,6 +82,8 @@ namespace MedTime
                 _time += TimeSpan.FromDays(1);
             }
         }
+       
+        
     }
 }
 

@@ -17,6 +17,6 @@ namespace MedTime.Models
         public DateTime DataStart { get; set; }
         public DateTime DataFinal { get; set; }
 
-       //public DateTime MinimumDate { get; set; }
+     
     }
 }

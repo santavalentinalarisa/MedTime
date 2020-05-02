@@ -8,6 +8,8 @@ public class MonoPackageManager_Resources {
 		"Newtonsoft.Json.dll",
 		"Plugin.LocalNotifications.Abstractions.dll",
 		"Plugin.LocalNotifications.dll",
+		"ProgressRing.Forms.Plugin.Android.dll",
+		"ProgressRing.Forms.Plugin.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",

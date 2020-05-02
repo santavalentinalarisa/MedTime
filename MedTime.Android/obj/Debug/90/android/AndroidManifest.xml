@@ -10,10 +10,10 @@
   <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:label="MedTime.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <application android:label="MedTime.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon3" android:debuggable="true">
     <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAym5SBTwBZsGDwG6U29SIDUeow82jLqkY" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="MedTime" android:theme="@style/MainTheme" android:name="md5ba7ff8d9d8bb5d82253ced5008664184.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon3" android:label="MedTime" android:theme="@style/MainTheme" android:name="md5ba7ff8d9d8bb5d82253ced5008664184.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
