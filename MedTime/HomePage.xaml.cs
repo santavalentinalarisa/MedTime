@@ -6,7 +6,7 @@ using Xamarin.Forms.Xaml;
 using System.Linq;
 using System.Threading.Tasks;
 using MedTime.Models;
-using ProgressRingControl.Forms.Plugin;
+using FFImageLoading;
 
 namespace MedTime
 {
@@ -15,7 +15,6 @@ namespace MedTime
         public HomePage()
         {
             InitializeComponent();
-            //var progressRing = new ProgressRing { RingThickness = 20, Progress = 0.5f };
 
             UrmatorulMedicament();
         }

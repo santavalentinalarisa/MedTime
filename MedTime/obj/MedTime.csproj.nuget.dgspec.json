@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
-            "Xam.Plugins.Forms.ProgressRing": {
-              "target": "Package",
-              "version": "[0.1.2, )"
-            },
             "Xam.Plugins.Notifier": {
               "target": "Package",
               "version": "[3.0.1, )"
@@ -63,6 +59,10 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

@@ -19,7 +19,8 @@ namespace MedTime
         {
             base.OnAppearing();
             listView.ItemsSource = await App.Database.GetMedicationsAsync();
-            foreach (Medicament medicament in listView.ItemsSource)
+            
+            foreach (Medicament medicament in listView.ItemsSource) //stergere medicament cu data final trecuta
             {
                 if (medicament.DataFinal < DateTime.Now.Date)
                 {

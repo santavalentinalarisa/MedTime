@@ -2,7 +2,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedTime.GasesteFarmacii"
              xmlns:mymap="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-             xmlns:places="clr-namespace:SearchPlaces;assembly=SearchPlaces"
              Title="Găsește farmacii">
     
         <Grid>

@@ -1,19 +1,17 @@
 ﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
+             xmlns:ffimageLoading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
              x:Class="MedTime.HomePage"
              Title="Acasă">
-    <!--<Grid>
-        <control:ProgressRing RingThickness="20" Progress="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-        <Button Text="+" WidthRequest="60" HeightRequest="60" CornerRadius="30" VerticalOptions="End" HorizontalOptions ="End" Margin="0,0,50,50" BackgroundColor="LightGray" Clicked="AdaugareMedicament"></Button>
-    </Grid> -->
+   
     <ContentPage.Content>
-        <StackLayout>
+        <Grid>
+           <!--<ffimageLoading:SvgCachedImage x:Name="img" Source="giphy.gif" HeightRequest="30" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Aspect="AspectFill"/> -->
             <Label x:Name="urmator" Text=""
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"  /> 
            <Button Text="+" WidthRequest="60" HeightRequest="60" CornerRadius="30" VerticalOptions="End" HorizontalOptions ="End" Margin="0,0,50,50" BackgroundColor="LightGray" Clicked="AdaugareMedicament"></Button>
-        </StackLayout>
+        </Grid>
     
     </ContentPage.Content>
 </ContentPage>

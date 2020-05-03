@@ -10,6 +10,17 @@
         <StackLayout Margin="20">
             <Editor Placeholder="Nume medicament" Text="{Binding Nume}" HeightRequest="50" />
             <Editor Placeholder="Doza" Text="{Binding Doza}" HeightRequest="50" />
+            <Picker x:Name="picker" Title="Tipul medicamentului">
+                <Picker.Items>
+                    <x:String>Tabletă</x:String>
+                    <x:String>Injecție</x:String>
+                    <x:String>Unguent</x:String>
+                    <x:String>Plic</x:String>
+                    <x:String>Sirop</x:String>
+                    <x:String>Altceva</x:String>
+
+                </Picker.Items>
+            </Picker>
             <Label Text="Ora" FontSize="Large"/>
             <TimePicker x:Name="tp" Time="{Binding Ora}"></TimePicker>
             <Grid >

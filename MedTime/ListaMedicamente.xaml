@@ -7,7 +7,7 @@
                 <ListView x:Name="listView" Margin="20" ItemSelected="OnListViewItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                        <ImageCell Text="{Binding Nume}" Detail="{Binding Ora, StringFormat='{}{0:hh\\:mm}'}" ImageSource="icon4">
+                        <ImageCell x:Name="detaliiMedicament" Text="{Binding Nume}" Detail="{Binding Ora, StringFormat='{}{0:hh\\:mm}'}" ImageSource="{Binding Tip}">
                         </ImageCell>
                     </DataTemplate>
                     </ListView.ItemTemplate>

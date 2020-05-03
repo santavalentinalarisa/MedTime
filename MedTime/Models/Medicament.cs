@@ -12,6 +12,8 @@ namespace MedTime.Models
         public string Nume { get; set; }
        
         public string Doza { get; set; }
+        
+        public string Tip { get; set; }
         public TimeSpan Ora { get; set; }
         
         public DateTime DataStart { get; set; }

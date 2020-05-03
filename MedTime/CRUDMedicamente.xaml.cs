@@ -13,25 +13,50 @@ namespace MedTime
 {
     public partial class CRUDMedicamente : ContentPage
     {
-        
+    
         DateTime _time;
         public CRUDMedicamente(){
             InitializeComponent();
+           
+            
         }
+        
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var medicament = (Medicament)BindingContext;
-            if (medicament.DataStart < DateTime.Now) 
+            switch (picker.SelectedItem?.ToString()) //setare icon diferit in functie de tipul medicamentului
             {
-                medicament.DataStart = DateTime.Now;
+                case "Tabletă":
+                    medicament.Tip = "pastila";
+                    break;
+                case "Injecție":
+                   medicament.Tip = "injectie";
+                    break;
+                case "Unguent":
+                    medicament.Tip = "unguent";
+                    break;
+                case "Plic":
+                    medicament.Tip = "plic";
+                    break;
+                case "Sirop":
+                    medicament.Tip = "sirop";
+                    break;
+                default:
+                    medicament.Tip = "altceva";
+                    break;
             }
-            if (medicament.DataFinal < DateTime.Now)
+           
+            if (medicament.DataStart < DateTime.Today) 
             {
-                medicament.DataFinal = DateTime.Now;
+                medicament.DataStart = DateTime.Today;
+            }
+            if (medicament.DataFinal < DateTime.Today)
+            {
+                medicament.DataFinal = DateTime.Today;
             }
 
             SetTriggerTime();
-            Device.StartTimer(TimeSpan.FromSeconds(1), OnTimerTick);
+            Device.StartTimer(TimeSpan.FromSeconds(1), () => OnTimerTick(medicament.DataStart, medicament.DataFinal));
             
             await App.Database.SaveMedicationAsync(medicament);
             await Navigation.PopAsync();
@@ -42,9 +67,9 @@ namespace MedTime
             await App.Database.DeleteMedicationAsync(medicament);
             await Navigation.PopAsync();
         }
-        bool OnTimerTick()
+        bool OnTimerTick(DateTime dataStart, DateTime dataFinal)
         {
-            if (_switch.IsToggled && DateTime.Now >= _time)
+            if (_switch.IsToggled && DateTime.Now >= _time && dataStart <= DateTime.Today && DateTime.Today <= dataFinal)
             {
                 _time += TimeSpan.FromDays(1);
                 var titlu = "MedTime";

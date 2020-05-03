@@ -1,6 +1,10 @@
+FFImageLoading.Forms.Platform
+FFImageLoading.Platform
+FFImageLoading.Svg.Forms
+FFImageLoading.Svg.Platform
 FormsViewGroup
 Plugin.LocalNotifications
-ProgressRing.Forms.Plugin.Android
+SkiaSharp
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core
