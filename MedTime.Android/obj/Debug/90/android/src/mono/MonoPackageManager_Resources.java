@@ -3,18 +3,11 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "MedTime.Android.dll" comes first in this list. */
 		"MedTime.Android.dll",
-		"FFImageLoading.dll",
-		"FFImageLoading.Forms.dll",
-		"FFImageLoading.Forms.Platform.dll",
-		"FFImageLoading.Platform.dll",
-		"FFImageLoading.Svg.Forms.dll",
-		"FFImageLoading.Svg.Platform.dll",
 		"FormsViewGroup.dll",
 		"MedTime.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.LocalNotifications.Abstractions.dll",
 		"Plugin.LocalNotifications.dll",
-		"SkiaSharp.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",

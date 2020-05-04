@@ -1,10 +1,5 @@
-FFImageLoading.Forms.Platform
-FFImageLoading.Platform
-FFImageLoading.Svg.Forms
-FFImageLoading.Svg.Platform
 FormsViewGroup
 Plugin.LocalNotifications
-SkiaSharp
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core

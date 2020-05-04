@@ -52,23 +52,23 @@
             },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
-            },
-            "Xamarin.FFImageLoading.Svg.Forms": {
-              "target": "Package",
-              "version": "[2.4.11.982, )"
+              "version": "[1.5.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.6.0.726, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.6.0.726, )"
             }
           }
         }
@@ -128,19 +128,15 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
-            },
-            "Xamarin.FFImageLoading.Svg.Forms": {
-              "target": "Package",
-              "version": "[2.4.11.982, )"
+              "version": "[1.5.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.6.0.726, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.6.0.726, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

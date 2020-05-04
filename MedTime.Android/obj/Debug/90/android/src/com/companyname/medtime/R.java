@@ -4099,32 +4099,37 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiTiltGestures=0x7f0301e8;
+    public static final int uiScrollGesturesDuringRotateOrZoom=0x7f0301e8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiZoomControls=0x7f0301e9;
+    public static final int uiTiltGestures=0x7f0301e9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiZoomGestures=0x7f0301ea;
+    public static final int uiZoomControls=0x7f0301ea;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f0301eb;
+    public static final int uiZoomGestures=0x7f0301eb;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useViewLifecycle=0x7f0301ec;
+    public static final int useCompatPadding=0x7f0301ec;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int useViewLifecycle=0x7f0301ed;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f0301ed;
+    public static final int viewInflaterClass=0x7f0301ee;
     /**
      * Voice button icon
      * <p>May be a reference to another resource, in the form
@@ -4132,14 +4137,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f0301ee;
+    public static final int voiceIcon=0x7f0301ef;
     /**
      * Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f0301ef;
+    public static final int windowActionBar=0x7f0301f0;
     /**
      * Flag indicating whether this window's Action Bar should overlay
      * application content. Does nothing if the window would not
@@ -4147,14 +4152,14 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f0301f0;
+    public static final int windowActionBarOverlay=0x7f0301f1;
     /**
      * Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f0301f1;
+    public static final int windowActionModeOverlay=0x7f0301f2;
     /**
      * A fixed height for the window along the major axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -4169,7 +4174,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f0301f2;
+    public static final int windowFixedHeightMajor=0x7f0301f3;
     /**
      * A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -4184,7 +4189,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f0301f3;
+    public static final int windowFixedHeightMinor=0x7f0301f4;
     /**
      * A fixed width for the window along the major axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -4199,7 +4204,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f0301f4;
+    public static final int windowFixedWidthMajor=0x7f0301f5;
     /**
      * A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -4214,7 +4219,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f0301f5;
+    public static final int windowFixedWidthMinor=0x7f0301f6;
     /**
      * The minimum width the window is allowed to be, along the major
      * axis of the screen.  That is, when in landscape.  Can be either
@@ -4230,7 +4235,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f0301f6;
+    public static final int windowMinWidthMajor=0x7f0301f7;
     /**
      * The minimum width the window is allowed to be, along the minor
      * axis of the screen.  That is, when in portrait.  Can be either
@@ -4246,18 +4251,18 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f0301f7;
+    public static final int windowMinWidthMinor=0x7f0301f8;
     /**
      * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f0301f8;
+    public static final int windowNoTitle=0x7f0301f9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zOrderOnTop=0x7f0301f9;
+    public static final int zOrderOnTop=0x7f0301fa;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -4750,42 +4755,43 @@ public final class R {
     public static final int design_ic_visibility_off=0x7f070073;
     public static final int design_password_eye=0x7f070074;
     public static final int design_snackbar_background=0x7f070075;
-    public static final int giphy=0x7f070076;
-    public static final int googleg_disabled_color_18=0x7f070077;
-    public static final int googleg_standard_color_18=0x7f070078;
-    public static final int home=0x7f070079;
-    public static final int ic_mtrl_chip_checked_black=0x7f07007a;
-    public static final int ic_mtrl_chip_checked_circle=0x7f07007b;
-    public static final int ic_mtrl_chip_close_circle=0x7f07007c;
-    public static final int icon=0x7f07007d;
-    public static final int icon1=0x7f07007e;
-    public static final int icon2=0x7f07007f;
-    public static final int icon3=0x7f070080;
-    public static final int icon4=0x7f070081;
-    public static final int icon5=0x7f070082;
-    public static final int injectie=0x7f070083;
-    public static final int mtrl_snackbar_background=0x7f070084;
-    public static final int mtrl_tabs_default_indicator=0x7f070085;
-    public static final int navigation_empty_icon=0x7f070086;
-    public static final int notification_action_background=0x7f070087;
-    public static final int notification_bg=0x7f070088;
-    public static final int notification_bg_low=0x7f070089;
-    public static final int notification_bg_low_normal=0x7f07008a;
-    public static final int notification_bg_low_pressed=0x7f07008b;
-    public static final int notification_bg_normal=0x7f07008c;
-    public static final int notification_bg_normal_pressed=0x7f07008d;
-    public static final int notification_icon_background=0x7f07008e;
-    public static final int notification_template_icon_bg=0x7f07008f;
-    public static final int notification_template_icon_low_bg=0x7f070090;
-    public static final int notification_tile_bg=0x7f070091;
-    public static final int notify_panel_notification_icon_bg=0x7f070092;
-    public static final int pastila=0x7f070093;
-    public static final int plic=0x7f070094;
-    public static final int plugin_lc_smallicon=0x7f070095;
-    public static final int sirop=0x7f070096;
-    public static final int tooltip_frame_dark=0x7f070097;
-    public static final int tooltip_frame_light=0x7f070098;
-    public static final int unguent=0x7f070099;
+    public static final int googleg_disabled_color_18=0x7f070076;
+    public static final int googleg_standard_color_18=0x7f070077;
+    public static final int home=0x7f070078;
+    public static final int homegif=0x7f070079;
+    public static final int homegif2=0x7f07007a;
+    public static final int ic_mtrl_chip_checked_black=0x7f07007b;
+    public static final int ic_mtrl_chip_checked_circle=0x7f07007c;
+    public static final int ic_mtrl_chip_close_circle=0x7f07007d;
+    public static final int icon=0x7f07007e;
+    public static final int icon1=0x7f07007f;
+    public static final int icon2=0x7f070080;
+    public static final int icon3=0x7f070081;
+    public static final int icon4=0x7f070082;
+    public static final int icon5=0x7f070083;
+    public static final int injectie=0x7f070084;
+    public static final int mtrl_snackbar_background=0x7f070085;
+    public static final int mtrl_tabs_default_indicator=0x7f070086;
+    public static final int navigation_empty_icon=0x7f070087;
+    public static final int notification_action_background=0x7f070088;
+    public static final int notification_bg=0x7f070089;
+    public static final int notification_bg_low=0x7f07008a;
+    public static final int notification_bg_low_normal=0x7f07008b;
+    public static final int notification_bg_low_pressed=0x7f07008c;
+    public static final int notification_bg_normal=0x7f07008d;
+    public static final int notification_bg_normal_pressed=0x7f07008e;
+    public static final int notification_icon_background=0x7f07008f;
+    public static final int notification_template_icon_bg=0x7f070090;
+    public static final int notification_template_icon_low_bg=0x7f070091;
+    public static final int notification_tile_bg=0x7f070092;
+    public static final int notify_panel_notification_icon_bg=0x7f070093;
+    public static final int pastila=0x7f070094;
+    public static final int plic=0x7f070095;
+    public static final int plugin_lc_smallicon=0x7f070096;
+    public static final int sirop=0x7f070097;
+    public static final int tooltip_frame_dark=0x7f070098;
+    public static final int tooltip_frame_light=0x7f070099;
+    public static final int unguent=0x7f07009a;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -5158,28 +5164,29 @@ public final class R {
     public static final int common_google_play_services_install_button=0x7f0d002e;
     public static final int common_google_play_services_install_text=0x7f0d002f;
     public static final int common_google_play_services_install_title=0x7f0d0030;
-    public static final int common_google_play_services_notification_ticker=0x7f0d0031;
-    public static final int common_google_play_services_unknown_issue=0x7f0d0032;
-    public static final int common_google_play_services_unsupported_text=0x7f0d0033;
-    public static final int common_google_play_services_update_button=0x7f0d0034;
-    public static final int common_google_play_services_update_text=0x7f0d0035;
-    public static final int common_google_play_services_update_title=0x7f0d0036;
-    public static final int common_google_play_services_updating_text=0x7f0d0037;
-    public static final int common_google_play_services_wear_update_text=0x7f0d0038;
-    public static final int common_open_on_phone=0x7f0d0039;
-    public static final int common_signin_button_text=0x7f0d003a;
-    public static final int common_signin_button_text_long=0x7f0d003b;
-    public static final int fab_transformation_scrim_behavior=0x7f0d003c;
-    public static final int fab_transformation_sheet_behavior=0x7f0d003d;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0d003e;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0d003f;
-    public static final int password_toggle_content_description=0x7f0d0040;
-    public static final int path_password_eye=0x7f0d0041;
-    public static final int path_password_eye_mask_strike_through=0x7f0d0042;
-    public static final int path_password_eye_mask_visible=0x7f0d0043;
-    public static final int path_password_strike_through=0x7f0d0044;
-    public static final int search_menu_title=0x7f0d0045;
-    public static final int status_bar_notification_info_overflow=0x7f0d0046;
+    public static final int common_google_play_services_notification_channel_name=0x7f0d0031;
+    public static final int common_google_play_services_notification_ticker=0x7f0d0032;
+    public static final int common_google_play_services_unknown_issue=0x7f0d0033;
+    public static final int common_google_play_services_unsupported_text=0x7f0d0034;
+    public static final int common_google_play_services_update_button=0x7f0d0035;
+    public static final int common_google_play_services_update_text=0x7f0d0036;
+    public static final int common_google_play_services_update_title=0x7f0d0037;
+    public static final int common_google_play_services_updating_text=0x7f0d0038;
+    public static final int common_google_play_services_wear_update_text=0x7f0d0039;
+    public static final int common_open_on_phone=0x7f0d003a;
+    public static final int common_signin_button_text=0x7f0d003b;
+    public static final int common_signin_button_text_long=0x7f0d003c;
+    public static final int fab_transformation_scrim_behavior=0x7f0d003d;
+    public static final int fab_transformation_sheet_behavior=0x7f0d003e;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0d003f;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0d0040;
+    public static final int password_toggle_content_description=0x7f0d0041;
+    public static final int path_password_eye=0x7f0d0042;
+    public static final int path_password_eye_mask_strike_through=0x7f0d0043;
+    public static final int path_password_eye_mask_visible=0x7f0d0044;
+    public static final int path_password_strike_through=0x7f0d0045;
+    public static final int search_menu_title=0x7f0d0046;
+    public static final int status_bar_notification_info_overflow=0x7f0d0047;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0e0000;
@@ -7746,10 +7753,10 @@ public final class R {
       0x7f0301b5, 0x7f0301b6, 0x7f0301b7, 0x7f0301b8, 
       0x7f0301ba, 0x7f0301bb, 0x7f0301bc, 0x7f0301bd, 
       0x7f0301c0, 0x7f0301c1, 0x7f0301db, 0x7f0301dc, 
-      0x7f0301dd, 0x7f0301de, 0x7f0301ed, 0x7f0301ef, 
-      0x7f0301f0, 0x7f0301f1, 0x7f0301f2, 0x7f0301f3, 
-      0x7f0301f4, 0x7f0301f5, 0x7f0301f6, 0x7f0301f7, 
-      0x7f0301f8
+      0x7f0301dd, 0x7f0301de, 0x7f0301ee, 0x7f0301f0, 
+      0x7f0301f1, 0x7f0301f2, 0x7f0301f3, 0x7f0301f4, 
+      0x7f0301f5, 0x7f0301f6, 0x7f0301f7, 0x7f0301f8, 
+      0x7f0301f9
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -11428,7 +11435,7 @@ public final class R {
       0x7f030035, 0x7f030036, 0x7f03003e, 0x7f0300c0, 
       0x7f0300d2, 0x7f0300d3, 0x7f0300ee, 0x7f0300f6, 
       0x7f03013c, 0x7f030156, 0x7f030160, 0x7f03016d, 
-      0x7f0301eb
+      0x7f0301ec
     };
     /**
      * <p>This symbol is the offset where the {@link com.companyname.MedTime.R.attr#backgroundTint}
@@ -12689,6 +12696,7 @@ public final class R {
      * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.companyname.MedTime:uiMapToolbar}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.companyname.MedTime:uiRotateGestures}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.companyname.MedTime:uiScrollGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiScrollGesturesDuringRotateOrZoom com.companyname.MedTime:uiScrollGesturesDuringRotateOrZoom}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.companyname.MedTime:uiTiltGestures}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiZoomControls com.companyname.MedTime:uiZoomControls}</code></td><td></td></tr>
      * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.companyname.MedTime:uiZoomGestures}</code></td><td></td></tr>
@@ -12713,6 +12721,7 @@ public final class R {
      * @see #MapAttrs_uiMapToolbar
      * @see #MapAttrs_uiRotateGestures
      * @see #MapAttrs_uiScrollGestures
+     * @see #MapAttrs_uiScrollGesturesDuringRotateOrZoom
      * @see #MapAttrs_uiTiltGestures
      * @see #MapAttrs_uiZoomControls
      * @see #MapAttrs_uiZoomGestures
@@ -12725,7 +12734,7 @@ public final class R {
       0x7f030116, 0x7f030117, 0x7f030118, 0x7f030119, 
       0x7f030134, 0x7f030137, 0x7f0301e4, 0x7f0301e5, 
       0x7f0301e6, 0x7f0301e7, 0x7f0301e8, 0x7f0301e9, 
-      0x7f0301ea, 0x7f0301ec, 0x7f0301f9
+      0x7f0301ea, 0x7f0301eb, 0x7f0301ed, 0x7f0301fa
     };
     /**
      * <p>This symbol is the offset where the {@link com.companyname.MedTime.R.attr#ambientEnabled}
@@ -12907,6 +12916,16 @@ public final class R {
      */
     public static final int MapAttrs_uiScrollGestures=17;
     /**
+     * <p>This symbol is the offset where the {@link com.companyname.MedTime.R.attr#uiScrollGesturesDuringRotateOrZoom}
+     * attribute's value can be found in the {@link #MapAttrs} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.companyname.MedTime:uiScrollGesturesDuringRotateOrZoom
+     */
+    public static final int MapAttrs_uiScrollGesturesDuringRotateOrZoom=18;
+    /**
      * <p>This symbol is the offset where the {@link com.companyname.MedTime.R.attr#uiTiltGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
@@ -12915,7 +12934,7 @@ public final class R {
      *
      * @attr name com.companyname.MedTime:uiTiltGestures
      */
-    public static final int MapAttrs_uiTiltGestures=18;
+    public static final int MapAttrs_uiTiltGestures=19;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.MedTime.R.attr#uiZoomControls}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -12925,7 +12944,7 @@ public final class R {
      *
      * @attr name com.companyname.MedTime:uiZoomControls
      */
-    public static final int MapAttrs_uiZoomControls=19;
+    public static final int MapAttrs_uiZoomControls=20;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.MedTime.R.attr#uiZoomGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -12935,7 +12954,7 @@ public final class R {
      *
      * @attr name com.companyname.MedTime:uiZoomGestures
      */
-    public static final int MapAttrs_uiZoomGestures=20;
+    public static final int MapAttrs_uiZoomGestures=21;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.MedTime.R.attr#useViewLifecycle}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -12945,7 +12964,7 @@ public final class R {
      *
      * @attr name com.companyname.MedTime:useViewLifecycle
      */
-    public static final int MapAttrs_useViewLifecycle=21;
+    public static final int MapAttrs_useViewLifecycle=22;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.MedTime.R.attr#zOrderOnTop}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -12955,7 +12974,7 @@ public final class R {
      *
      * @attr name com.companyname.MedTime:zOrderOnTop
      */
-    public static final int MapAttrs_zOrderOnTop=22;
+    public static final int MapAttrs_zOrderOnTop=23;
     /**
      * Attributes that can be used with a MaterialButton.
      * <p>Includes the following attributes:</p>
@@ -15031,7 +15050,7 @@ public final class R {
       0x7f030081, 0x7f03009a, 0x7f0300b0, 0x7f0300e8, 
       0x7f0300ff, 0x7f03011a, 0x7f030159, 0x7f03015a, 
       0x7f030165, 0x7f030166, 0x7f030186, 0x7f03018b, 
-      0x7f0301ee
+      0x7f0301ef
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}

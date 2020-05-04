@@ -58,19 +58,15 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
-            },
-            "Xamarin.FFImageLoading.Svg.Forms": {
-              "target": "Package",
-              "version": "[2.4.11.982, )"
+              "version": "[1.5.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.6.0.726, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.6.0.726, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

@@ -6,7 +6,6 @@ using Xamarin.Forms.Xaml;
 using System.Linq;
 using System.Threading.Tasks;
 using MedTime.Models;
-using FFImageLoading;
 
 namespace MedTime
 {
@@ -45,15 +44,17 @@ namespace MedTime
             {
                 Device.StartTimer(new TimeSpan(0, 0, 1), () =>
                 {
+                  
                     urmator.Text = (urmatoarea_ora - DateTime.Now.TimeOfDay).ToString().Split('.')[0]; //stergere milisecunde
-                    urmator.FontFamily = "Lobster-Regular";
                     urmator.FontSize = 24;
+                    text.Text = "Următoarea alarmă: ";
                     return true;
                 });
             }
             else
             {
-                urmator.Text = "Nu mai avem nici un medicament de luat";
+                urmator.Text = "Nu aveți nici un medicament de administrat!";
+                
             }
         }
         async void AdaugareMedicament(object sender, EventArgs e)
