@@ -21,6 +21,8 @@ namespace MedTime
         {
             var medicaments = await App.Database.GetMedicationsAsync();
 
+            // var urmatorul_medicament = medicaments.OrderBy(medicament => medicament.DataStart).ThenBy(medicament => medicament.Ora).First();
+
             var diferenta_ore_min = TimeSpan.MaxValue;
             TimeSpan urmatoarea_ora;
             foreach (Medicament medicament in medicaments)
@@ -46,6 +48,11 @@ namespace MedTime
                 {
                   
                     urmator.Text = (urmatoarea_ora - DateTime.Now.TimeOfDay).ToString().Split('.')[0]; //stergere milisecunde
+                    var timp_ramas = urmatoarea_ora - DateTime.Now.TimeOfDay;
+                    if (timp_ramas.Hours == 0 && timp_ramas.Minutes == 0 && timp_ramas.Seconds == 1) // reapelare functie cand cronometrul ajunge la 0
+                    {
+                        UrmatorulMedicament();
+                    }
                     urmator.FontSize = 24;
                     text.Text = "Următoarea alarmă: ";
                     return true;

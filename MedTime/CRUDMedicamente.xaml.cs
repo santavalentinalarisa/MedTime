@@ -17,8 +17,6 @@ namespace MedTime
         DateTime _time;
         public CRUDMedicamente(){
             InitializeComponent();
-           
-            
         }
         
         async void OnSaveButtonClicked(object sender, EventArgs e)
@@ -56,10 +54,12 @@ namespace MedTime
             }
 
             SetTriggerTime();
-            Device.StartTimer(TimeSpan.FromSeconds(1), () => OnTimerTick(medicament.DataStart, medicament.DataFinal));
+            Device.StartTimer(TimeSpan.FromSeconds(1), () => OnTimerTick(medicament.Nume, medicament.DataStart, medicament.DataFinal));
+            
             
             await App.Database.SaveMedicationAsync(medicament);
             await Navigation.PopAsync();
+
         }
         async void OnDeleteButtonClicked(object sender, EventArgs e)
         {
@@ -67,13 +67,13 @@ namespace MedTime
             await App.Database.DeleteMedicationAsync(medicament);
             await Navigation.PopAsync();
         }
-        bool OnTimerTick(DateTime dataStart, DateTime dataFinal)
+        bool OnTimerTick(String nume, DateTime dataStart, DateTime dataFinal)
         {
             if (_switch.IsToggled && DateTime.Now >= _time && dataStart <= DateTime.Today && DateTime.Today <= dataFinal)
             {
                 _time += TimeSpan.FromDays(1);
                 var titlu = "MedTime";
-                var mesaj = "Nu uita sa iei pastila!";
+                var mesaj = "Nu uita să administrezi " + nume + "!";
 
                 CrossLocalNotifications.Current.Show(titlu, mesaj);
             }

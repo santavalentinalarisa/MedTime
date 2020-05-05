@@ -4,11 +4,39 @@
              Title="Listă medicamente">
     <ContentPage.Content>
         <StackLayout x:Name="stackLayout">
-                <ListView x:Name="listView" Margin="20" ItemSelected="OnListViewItemSelected">
+            <ListView x:Name="listView" Margin="20" ItemSelected="OnListViewItemSelected" 
+                      CachingStrategy="RecycleElement"
+                      Grid.Row="3"
+                      HasUnevenRows="true"
+                      SeparatorVisibility="None">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                        <ImageCell x:Name="detaliiMedicament" Text="{Binding Nume}" Detail="{Binding Ora, StringFormat='{}{0:hh\\:mm}'}" ImageSource="{Binding Tip}">
-                        </ImageCell>
+                        <!--<ImageCell x:Name="detaliiMedicament" Text="{Binding Nume}" Detail="{Binding Ora, StringFormat='{}{0:hh\\:mm}'}" ImageSource="{Binding Tip}">
+                        </ImageCell> -->
+                        <ViewCell>
+                            <Frame BorderColor="Gray" Margin="10">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                        <ColumnDefinition />
+                                        <ColumnDefinition />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Row="0" Grid.RowSpan="3"  Grid.Column="0" Source="{Binding Tip}"/>
+                                    <Label Grid.Row="0" Grid.Column="2" Text="{Binding Nume}" FontFamily="Bold" TextColor="DodgerBlue" LineBreakMode="TailTruncation"></Label>
+                                    <Image Grid.Row="1" Grid.Column="1" HeightRequest="5" WidthRequest="5" Source="clock.png"/>
+                                    <Label Grid.Row="1" Grid.Column="2" Text="{Binding Ora,  StringFormat='{}{0:hh\\:mm}'}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                                    <Image Grid.Row="2" Grid.Column="1" HeightRequest="5" WidthRequest="5" Source="date.png"/>
+                                    <Label Grid.Row="2" Grid.Column="2" Text="{Binding DataStart, StringFormat='{}{0:dd/MM/yyyy}'}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                                    <Label Grid.Row="2" Grid.Column="3" Text="{Binding DataFinal, StringFormat='{}{0:- dd/MM/yyyy}'}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
                     </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>

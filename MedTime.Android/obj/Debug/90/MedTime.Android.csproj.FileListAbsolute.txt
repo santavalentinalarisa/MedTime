@@ -1804,3 +1804,5 @@ E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\stam
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\res\drawable\homegif.gif
 E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\res\drawable\homegif2.gif
+E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\res\drawable\clock.png
+E:\Faculta\Licenta\Implementare\GitHub\MedTime\MedTime.Android\obj\Debug\90\res\drawable\date.png
