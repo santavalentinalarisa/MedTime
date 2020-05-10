@@ -24,7 +24,6 @@
             <Label Text="Ora" FontSize="Large"/>
             <TimePicker x:Name="tp" Time="{Binding Ora}"></TimePicker>
             <Grid >
-
                 <Label Text="Data start" Grid.Row="1"  FontSize="Large"/>
                 <DatePicker x:Name="dps" Date="{Binding DataStart}" Grid.Row="2" MinimumDate="{x:Static sys:DateTime.Now}" MaximumDate="12/31/2020" ></DatePicker>
                 <Label Text="Data final" Grid.Row="1" Grid.Column="1" FontSize="Large"/>

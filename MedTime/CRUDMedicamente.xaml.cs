@@ -17,6 +17,7 @@ namespace MedTime
         DateTime _time;
         public CRUDMedicamente(){
             InitializeComponent();
+           
         }
         
         async void OnSaveButtonClicked(object sender, EventArgs e)

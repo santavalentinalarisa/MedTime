@@ -20,38 +20,30 @@ namespace MedTime
         async void UrmatorulMedicament()
         {
             var medicaments = await App.Database.GetMedicationsAsync();
-
-            // var urmatorul_medicament = medicaments.OrderBy(medicament => medicament.DataStart).ThenBy(medicament => medicament.Ora).First();
-
-            var diferenta_ore_min = TimeSpan.MaxValue;
-            TimeSpan urmatoarea_ora;
+            var urmatoarea_ora = TimeSpan.MaxValue;
             foreach (Medicament medicament in medicaments)
             {
-                var ora_medicament = medicament.Ora;
-                if (medicament.Ora < DateTime.Now.TimeOfDay)
+                if (medicament.DataStart <= DateTime.Today && medicament.Ora >= DateTime.Now.TimeOfDay)
                 {
-                    ora_medicament += TimeSpan.FromHours(24);
-                }
-
-                var diferenta_ore = ora_medicament - DateTime.Now.TimeOfDay;
-
-                if (diferenta_ore < diferenta_ore_min)
-                {
-                    diferenta_ore_min = diferenta_ore;
-                    urmatoarea_ora = ora_medicament;
+                    if (medicament.Ora < urmatoarea_ora)
+                    {
+                        urmatoarea_ora = medicament.Ora;
+                    } 
                 }
             }
 
-            if (diferenta_ore_min != TimeSpan.MaxValue)
+            if (urmatoarea_ora != TimeSpan.MaxValue)
             {
                 Device.StartTimer(new TimeSpan(0, 0, 1), () =>
                 {
                   
                     urmator.Text = (urmatoarea_ora - DateTime.Now.TimeOfDay).ToString().Split('.')[0]; //stergere milisecunde
                     var timp_ramas = urmatoarea_ora - DateTime.Now.TimeOfDay;
-                    if (timp_ramas.Hours == 0 && timp_ramas.Minutes == 0 && timp_ramas.Seconds == 1) // reapelare functie cand cronometrul ajunge la 0
+                    if (timp_ramas.Hours == 0 && timp_ramas.Minutes == 0 && timp_ramas.Seconds == 0) // oprire countdown si reapelare functie cand timpul ajunge la 0
                     {
-                        UrmatorulMedicament();
+                        
+                        return false;
+                        //UrmatorulMedicament();
                     }
                     urmator.FontSize = 24;
                     text.Text = "Următoarea alarmă: ";
@@ -60,7 +52,7 @@ namespace MedTime
             }
             else
             {
-                urmator.Text = "Nu aveți nici un medicament de administrat!";
+                urmator.Text = "Azi nu aveți nici un medicament de administrat!";
                 
             }
         }
@@ -69,7 +61,9 @@ namespace MedTime
             await Navigation.PushAsync(new CRUDMedicamente
             {
                 BindingContext = new Medicament()
+
             });
+           
         }
 
     }
