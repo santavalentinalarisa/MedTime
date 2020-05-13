@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedTime.Android", "MedTime.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedTime", "MedTime\MedTime.csproj", "{3362E253-0C0E-4153-A97C-311AA3F0D8D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedTime.iOS", "MedTime.iOS\MedTime.iOS.csproj", "{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,17 @@ Global
 		{3362E253-0C0E-4153-A97C-311AA3F0D8D8}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{3362E253-0C0E-4153-A97C-311AA3F0D8D8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{3362E253-0C0E-4153-A97C-311AA3F0D8D8}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Debug|Any CPU.Build.0 = Debug|iPhone
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Release|iPhone.Build.0 = Release|iPhone
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{2D82DD26-CA97-447D-AA5C-0CFC14562B7B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
