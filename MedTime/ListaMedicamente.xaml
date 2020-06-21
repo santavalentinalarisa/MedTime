@@ -10,9 +10,7 @@
                       HasUnevenRows="true"
                       SeparatorVisibility="None">
                     <ListView.ItemTemplate>
-                        <DataTemplate>
-                        <!--<ImageCell x:Name="detaliiMedicament" Text="{Binding Nume}" Detail="{Binding Ora, StringFormat='{}{0:hh\\:mm}'}" ImageSource="{Binding Tip}">
-                        </ImageCell> -->
+                    <DataTemplate>
                         <ViewCell>
                             <Frame BorderColor="Gray" Margin="10">
                                 <Grid>

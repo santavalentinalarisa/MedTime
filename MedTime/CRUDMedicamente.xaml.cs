@@ -23,28 +23,7 @@ namespace MedTime
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var medicament = (Medicament)BindingContext;
-            switch (picker.SelectedItem?.ToString()) //setare icon diferit in functie de tipul medicamentului
-            {
-                case "Tabletă":
-                    medicament.Tip = "pastila";
-                    break;
-                case "Injecție":
-                   medicament.Tip = "injectie";
-                    break;
-                case "Unguent":
-                    medicament.Tip = "unguent";
-                    break;
-                case "Plic":
-                    medicament.Tip = "plic";
-                    break;
-                case "Sirop":
-                    medicament.Tip = "sirop";
-                    break;
-                default:
-                    medicament.Tip = "altceva";
-                    break;
-            }
-           
+               
             if (medicament.DataStart < DateTime.Today) 
             {
                 medicament.DataStart = DateTime.Today;
@@ -55,26 +34,25 @@ namespace MedTime
             }
 
             SetTriggerTime();
-            Device.StartTimer(TimeSpan.FromSeconds(1), () => OnTimerTick(medicament.Nume, medicament.DataStart, medicament.DataFinal));
-            
+            Device.StartTimer(TimeSpan.FromSeconds(1), () => OnTimerTick(medicament.Nume, medicament.Doza, medicament.DataStart, medicament.DataFinal));
             
             await App.Database.SaveMedicationAsync(medicament);
-            await Navigation.PopAsync();
+            await Navigation.PushAsync(new ListaMedicamente()); // navigare spre pagina listaMedicamente
 
-        }
+        } 
         async void OnDeleteButtonClicked(object sender, EventArgs e)
         {
             var medicament = (Medicament)BindingContext;
             await App.Database.DeleteMedicationAsync(medicament);
             await Navigation.PopAsync();
         }
-        bool OnTimerTick(String nume, DateTime dataStart, DateTime dataFinal)
+        bool OnTimerTick(String nume, String doza, DateTime dataStart, DateTime dataFinal)
         {
             if (_switch.IsToggled && DateTime.Now >= _time && dataStart <= DateTime.Today && DateTime.Today <= dataFinal)
             {
                 _time += TimeSpan.FromDays(1);
                 var titlu = "MedTime";
-                var mesaj = "Nu uita să administrezi " + nume + "!";
+                var mesaj = "E timpul să administrezi " + nume + ", " + doza + "!";
 
                 CrossLocalNotifications.Current.Show(titlu, mesaj);
             }

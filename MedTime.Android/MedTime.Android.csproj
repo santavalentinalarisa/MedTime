@@ -116,9 +116,6 @@
     <AndroidResource Include="Resources\drawable\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\icon2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\home.png" />
   </ItemGroup>
   <ItemGroup>
@@ -131,22 +128,22 @@
     <AndroidResource Include="Resources\drawable\icon5.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\injectie.png" />
+    <AndroidResource Include="Resources\drawable\Injectie.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\pastila.png" />
+    <AndroidResource Include="Resources\drawable\Tableta.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\plic.png" />
+    <AndroidResource Include="Resources\drawable\Plic.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\sirop.png" />
+    <AndroidResource Include="Resources\drawable\Sirop.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\unguent.png" />
+    <AndroidResource Include="Resources\drawable\Unguent.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\altceva.png" />
+    <AndroidResource Include="Resources\drawable\Altceva.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\homegif.gif" />
@@ -159,6 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icon2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -18,6 +18,8 @@ namespace MedTime
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            NavigationPage.SetHasBackButton(this, false); //stergere buton back de la lista medicamente
+
             listView.ItemsSource = await App.Database.GetMedicationsAsync();
             
             foreach (Medicament medicament in listView.ItemsSource) //stergere medicament cu data final trecuta

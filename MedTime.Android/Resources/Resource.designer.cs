@@ -11091,7 +11091,7 @@ namespace MedTime.Droid
 			public const int abc_vector_test = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int altceva = 2131165274;
+			public const int Altceva = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
 			public const int avd_hide_password = 2131165275;
@@ -11223,7 +11223,7 @@ namespace MedTime.Droid
 			public const int ic_mtrl_chip_close_circle = 2131165311;
 			
 			// aapt resource value: 0x7F070086
-			public const int injectie = 2131165318;
+			public const int Injectie = 2131165318;
 			
 			// aapt resource value: 0x7F070087
 			public const int mtrl_snackbar_background = 2131165319;
@@ -11271,16 +11271,16 @@ namespace MedTime.Droid
 			public const int notify_panel_notification_icon_bg = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int pastila = 2131165334;
+			public const int Plic = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int plic = 2131165335;
+			public const int plugin_lc_smallicon = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int plugin_lc_smallicon = 2131165336;
+			public const int Sirop = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int sirop = 2131165337;
+			public const int Tableta = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
 			public const int tooltip_frame_dark = 2131165338;
@@ -11289,7 +11289,7 @@ namespace MedTime.Droid
 			public const int tooltip_frame_light = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int unguent = 2131165340;
+			public const int Unguent = 2131165340;
 			
 			static Drawable()
 			{

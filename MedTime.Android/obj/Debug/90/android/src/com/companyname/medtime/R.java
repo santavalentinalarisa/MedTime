@@ -4787,10 +4787,10 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f070093;
     public static final int notification_tile_bg=0x7f070094;
     public static final int notify_panel_notification_icon_bg=0x7f070095;
-    public static final int pastila=0x7f070096;
-    public static final int plic=0x7f070097;
-    public static final int plugin_lc_smallicon=0x7f070098;
-    public static final int sirop=0x7f070099;
+    public static final int plic=0x7f070096;
+    public static final int plugin_lc_smallicon=0x7f070097;
+    public static final int sirop=0x7f070098;
+    public static final int tableta=0x7f070099;
     public static final int tooltip_frame_dark=0x7f07009a;
     public static final int tooltip_frame_light=0x7f07009b;
     public static final int unguent=0x7f07009c;

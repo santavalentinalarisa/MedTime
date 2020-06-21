@@ -1051,10 +1051,10 @@ int drawable notification_template_icon_bg 0x7f070092
 int drawable notification_template_icon_low_bg 0x7f070093
 int drawable notification_tile_bg 0x7f070094
 int drawable notify_panel_notification_icon_bg 0x7f070095
-int drawable pastila 0x7f070096
-int drawable plic 0x7f070097
-int drawable plugin_lc_smallicon 0x7f070098
-int drawable sirop 0x7f070099
+int drawable plic 0x7f070096
+int drawable plugin_lc_smallicon 0x7f070097
+int drawable sirop 0x7f070098
+int drawable tableta 0x7f070099
 int drawable tooltip_frame_dark 0x7f07009a
 int drawable tooltip_frame_light 0x7f07009b
 int drawable unguent 0x7f07009c

@@ -78,7 +78,7 @@ namespace MedTime
             }
             else
             {
-                await Application.Current.MainPage.DisplayAlert("Nici un raspuns", "Incercati din nou", "OK");
+                await Application.Current.MainPage.DisplayAlert("Nici un răspuns", "Încercați din nou", "OK");
             }
 
             return rootObject.results;
@@ -89,7 +89,7 @@ namespace MedTime
             {
                 var Places = await GetNearByPlacesAsync();
                 if (Places.Count == 0 || Places == null)
-                    await Application.Current.MainPage.DisplayAlert("Nici o farmacie gasita", "Nici o farmacie gasita in apropierea locatiei", "OK");
+                    await Application.Current.MainPage.DisplayAlert("Nici o farmacie găsită", "Nici o farmacie gasită în apropierea locației", "OK");
                 else
                 {
                     mylocalmap.Pins.Clear();

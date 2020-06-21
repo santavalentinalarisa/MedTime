@@ -35,25 +35,21 @@ namespace MedTime
             if (urmatoarea_ora != TimeSpan.MaxValue)
             {
                 Device.StartTimer(new TimeSpan(0, 0, 1), () =>
-                {
-                  
+                {   
                     urmator.Text = (urmatoarea_ora - DateTime.Now.TimeOfDay).ToString().Split('.')[0]; //stergere milisecunde
                     var timp_ramas = urmatoarea_ora - DateTime.Now.TimeOfDay;
-                    if (timp_ramas.Hours == 0 && timp_ramas.Minutes == 0 && timp_ramas.Seconds == 0) // oprire countdown si reapelare functie cand timpul ajunge la 0
+                    if (timp_ramas.Hours == 0 && timp_ramas.Minutes == 0 && timp_ramas.Seconds == 0) // oprire countdown cand timpul ajunge la 0
                     {
-                        
                         return false;
-                        //UrmatorulMedicament();
                     }
                     urmator.FontSize = 24;
-                    text.Text = "Următoarea alarmă: ";
+                    text.Text = "Următoarea administrare: ";
                     return true;
                 });
             }
             else
             {
                 urmator.Text = "Azi nu aveți nici un medicament de administrat!";
-                
             }
         }
         async void AdaugareMedicament(object sender, EventArgs e)
@@ -61,10 +57,7 @@ namespace MedTime
             await Navigation.PushAsync(new CRUDMedicamente
             {
                 BindingContext = new Medicament()
-
             });
-           
         }
-
     }
 }

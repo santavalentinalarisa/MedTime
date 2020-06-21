@@ -10,10 +10,10 @@
         <StackLayout Margin="20">
             <Editor Placeholder="Nume medicament" Text="{Binding Nume}" HeightRequest="50" />
             <Editor Placeholder="Doza" Text="{Binding Doza}" HeightRequest="50" />
-            <Picker x:Name="picker" Title="Tipul medicamentului" ItemDisplayBinding="{Binding Tip}">
+            <Picker x:Name="picker" Title="Tipul medicamentului" SelectedItem="{Binding Tip}">
                 <Picker.Items>
-                    <x:String>Tabletă</x:String>
-                    <x:String>Injecție</x:String>
+                    <x:String>Tableta</x:String>
+                    <x:String>Injectie</x:String>
                     <x:String>Unguent</x:String>
                     <x:String>Plic</x:String>
                     <x:String>Sirop</x:String>
@@ -22,7 +22,7 @@
                 </Picker.Items>
             </Picker>
             <Label Text="Ora" FontSize="Large"/>
-            <TimePicker x:Name="tp" Time="{Binding Ora}"></TimePicker>
+            <TimePicker x:Name="tp" Format="HH:mm" Time="{Binding Ora}"></TimePicker>
             <Grid >
                 <Label Text="Data start" Grid.Row="1"  FontSize="Large"/>
                 <DatePicker x:Name="dps" Date="{Binding DataStart}" Grid.Row="2" MinimumDate="{x:Static sys:DateTime.Now}" MaximumDate="12/31/2020" ></DatePicker>
